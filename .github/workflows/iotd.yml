@@ -1,0 +1,44 @@
+name: IOTD
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Runs the workflow once every day at 02:25 UTC
+    - cron: "25 2 * * *"
+
+jobs:
+  create_and_commit_file:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.12
+          cache: "pip"
+
+      - name: Generates image
+        env:
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_KEY: ${{ secrets.CF_API_KEY }}
+          SAVE_RESPONSE: False
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python cf_api.py
+        shell: bash
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41895282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit and push file
+        run: |
+          git fetch origin gh-pages || true
+          git checkout -B gh-pages origin/gh-pages || git checkout -b gh-pages
+          git add .
+          git commit -m 'new image generated'
+          git push origin gh-pages
