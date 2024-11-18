@@ -30,7 +30,7 @@ def api_response(model, payload):
     raise IOError
 
 
-def get_text(model: str, sys_prompt: str, user_prompt: str):
+def get_text(model: str, sys_prompt: str, user_prompt: str) -> str:
     payload = {
         "messages": [{"role": "system", "content": sys_prompt}, {"role": "user", "content": user_prompt}],
         "temperature": 0.8,
@@ -82,6 +82,10 @@ def extract_json(answer: str) -> json:
     return _json
 
 
+def remove_quotes(x: str) -> str:
+    return re.sub(r"[\"']", "", x)
+
+
 def hallucinator() -> json:
     model = "meta/llama-3.1-8b-instruct"
     drug_n_topic = get_text(
@@ -89,7 +93,7 @@ def hallucinator() -> json:
         sys_prompt="You are a helpful assistant with knowledge of various random and interesting fields",
         user_prompt="just name 1 random Hallucinogen and 1 unrelated topic in a csv format with only name",
     )
-    drug, topic = drug_n_topic.split(",")
+    drug, topic = remove_quotes(drug_n_topic).split(",", 1)
     print(f"{drug=} | {topic=}")
     output_pattern = {"imageDescription": "", "imageTitle": "", "randomDrug": "", "randomTopic": ""}
     output = get_text(
