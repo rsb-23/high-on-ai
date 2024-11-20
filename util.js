@@ -1,15 +1,16 @@
-// Get today's date in dd-mm-yyyy format
+// Get today's date in yyyy-mm/dd format
 const today = new Date();
 const formattedDate = today.toISOString().slice(0, 10);
-console.log(formattedDate, today.toISOString());
+const nestedDate = `${formattedDate.slice(0, 7)}/${formattedDate.slice(8, 10)}`;
+console.log(formattedDate, nestedDate);
 
 // Configure display elements
 fetch("iotd/data.json")
   .then((response) => response.json())
   .then((data) => {
     let imageKey = "default";
-    if (data[formattedDate] != undefined) {
-      imageKey = formattedDate;
+    if (data[nestedDate] != undefined) {
+      imageKey = nestedDate;
     }
     const description = data[imageKey]["title"] || "no description found";
     document.getElementById("description").textContent = description;
