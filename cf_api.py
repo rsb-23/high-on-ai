@@ -3,6 +3,7 @@ import json
 import re
 import time
 from datetime import datetime, timedelta
+from pathlib import Path
 
 from requests import Session
 
@@ -11,6 +12,7 @@ from env_values import CF_ACCOUNT_ID, CF_API_KEY, SAVE_RESPONSE
 API_BASE_URL = f"https://api.cloudflare.com/client/v4/accounts/{CF_ACCOUNT_ID}/ai/run"
 headers = {"Authorization": f"Bearer {CF_API_KEY}"}
 
+data_path = Path("iotd")
 s = Session()
 s.headers = headers
 
@@ -39,14 +41,17 @@ def get_text(model: str, sys_prompt: str, user_prompt: str):
 
 
 def save_image(img_data):
-    output_file = f"iotd/{TOMORROW}.png"
+    output_file = data_path / f"{TOMORROW}.png"
+    output_file.parent.mkdir(exist_ok=True)  # creates parent dir if not present
+
     with open(output_file, "wb") as file:
         file.write(img_data)
     print(f"Image saved as {output_file}")
 
 
 def save_details():
-    with open("iotd/data.json", "r") as f:
+    data_file = data_path / "data.json"
+    with open(data_file, "r") as f:
         data = json.load(f) or {}
     data[TOMORROW] = {
         "title": dream["imageTitle"],
@@ -54,7 +59,7 @@ def save_details():
         "randomDrug": dream["randomDrug"],
         "randomTopic": dream["randomTopic"],
     }
-    with open("iotd/data.json", "w") as f:
+    with open(data_file, "w") as f:
         json.dump(data, f, indent=2, sort_keys=True)
 
 
@@ -103,7 +108,7 @@ def hallucinator() -> json:
 
 
 if __name__ == "__main__":
-    TOMORROW = (datetime.now() + timedelta(1)).strftime("%Y-%m-%d")
+    TOMORROW = (datetime.now() + timedelta(1)).strftime("%Y-%m/%d")
 
     dream = hallucinator()
     print(dream)
