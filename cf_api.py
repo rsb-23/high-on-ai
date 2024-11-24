@@ -72,34 +72,49 @@ def generate_image(prompt):
 
 
 def extract_json(answer: str) -> json:
-    a = answer.find("```")
-    b = answer.find("```", a + 5)
-    json_text = answer[a + 3 : b].strip().lstrip("json")
+    if "```" in answer:
+        a = answer.find("```")
+        b = answer.find("```", a + 5)
+        json_text = answer[a + 3 : b].strip().lstrip("json").strip()
+    else:
+        print("no code block in answer")
+        json_text = answer
     try:
         _json = json.loads(json_text)
     except json.JSONDecodeError as e:
-        error = e.args[0]
-        print(error)
+        print("error1", e.doc, e.pos, "\n", e.msg)
         json_text = re.sub(r"\s+", " ", json_text)
         json_text = re.sub(r"'(\w+)':", r'"\1":', json_text)
 
-        _json = json.loads(json_text)
+        try:
+            _json = json.loads(json_text)
+        except json.JSONDecodeError as e:
+            print("error2", e.doc, e.pos, "\n", e.msg)
+            raise
     return _json
+
+
+def remove_quotes(x: str) -> str:
+    return re.sub(r"[\"']", "", x)
 
 
 def hallucinator() -> json:
     model = "meta/llama-3.1-8b-instruct"
-    drug_n_topic = get_text(
-        model,
-        sys_prompt="You are a helpful assistant with knowledge of various random and interesting fields",
-        user_prompt="just name 1 random Hallucinogen and 1 unrelated topic in a csv format with only name",
-    )
-    drug, topic = drug_n_topic.split(",")
-    print(f"{drug=} | {topic=}")
+    drug_n_topic, retries = "", 5
+    while not drug_n_topic and retries:
+        drug_n_topic = get_text(
+            model,
+            sys_prompt="You are a helpful assistant with knowledge of various random and interesting fields",
+            user_prompt="just name 1 random Hallucinogen and 1 unrelated topic in a csv format with only name",
+        )
+        time.sleep(0.8 * retries)
+        retries -= 1
+    print(f"{drug_n_topic=}")
+    drug, topic = remove_quotes(drug_n_topic).split(",", 1)
     output_pattern = {"imageDescription": "", "imageTitle": "", "randomDrug": "", "randomTopic": ""}
     output = get_text(
         model,
-        sys_prompt="You are a drug researcher who is a creative and imaginative artist too.",
+        sys_prompt="You are a drug researcher who is a creative and imaginative artist too. Only reply in json format",
         user_prompt=f"Describe an image about {topic} as described by some person under the influence {drug}. "
         f"this is part of json file added to your research. json format should be {output_pattern},"
         f" imageTitle should be description summary in less than 10 words",
