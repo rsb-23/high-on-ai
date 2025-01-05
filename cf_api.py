@@ -32,11 +32,13 @@ def api_response(model, payload):
     raise IOError
 
 
-def get_text(model: str, sys_prompt: str, user_prompt: str):
+def get_text(model: str, sys_prompt: str, user_prompt: str, json_output=False) -> str:
     payload = {
         "messages": [{"role": "system", "content": sys_prompt}, {"role": "user", "content": user_prompt}],
         "temperature": 0.8,
     }
+    if json_output:
+        payload["messages"].append({"role": "assistant", "content": "{"})
     return api_response(model, payload)["response"]
 
 
@@ -118,6 +120,7 @@ def hallucinator() -> json:
         user_prompt=f"Describe an image about {topic} as described by some person under the influence {drug}. "
         f"this is part of json file added to your research. json format should be {output_pattern},"
         f" imageTitle should be description summary in less than 10 words",
+        json_output=True,
     )
     return extract_json(output)
 
