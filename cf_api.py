@@ -33,9 +33,11 @@ def api_response(model, payload):
 
 
 def get_text(model: str, sys_prompt: str, user_prompt: str, json_output=False) -> str:
+    if json_output:
+        sys_prompt += " Only reply as single valid json"
     payload = {
         "messages": [{"role": "system", "content": sys_prompt}, {"role": "user", "content": user_prompt}],
-        "temperature": 0.8,
+        "temperature": 0.75,
     }
     if json_output:
         payload["messages"].append({"role": "assistant", "content": "{"})
@@ -81,6 +83,8 @@ def extract_json(answer: str) -> json:
     else:
         print("no code block in answer")
         json_text = answer
+    if "}" not in json_text:
+        json_text += "}"
     try:
         _json = json.loads(json_text)
     except json.JSONDecodeError as e:
@@ -113,12 +117,12 @@ def hallucinator() -> json:
         retries -= 1
     print(f"{drug_n_topic=}")
     drug, topic = remove_quotes(drug_n_topic).split(",", 1)
-    output_pattern = {"imageDescription": "", "imageTitle": "", "randomDrug": "", "randomTopic": ""}
+    output_pattern = {"randomDrug": "", "randomTopic": "", "imageTitle": "", "imageDescription": ""}
     output = get_text(
         model,
-        sys_prompt="You are a drug researcher who is a creative and imaginative artist too. Only reply in json format",
+        sys_prompt="You are a drug researcher who is a creative and imaginative artist too.",
         user_prompt=f"Describe an image about {topic} as described by some person under the influence {drug}. "
-        f"this is part of json file added to your research. json format should be {output_pattern},"
+        f"json format should be {json.dumps(output_pattern)},"
         f" imageTitle should be description summary in less than 10 words",
         json_output=True,
     )
