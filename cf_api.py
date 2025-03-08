@@ -40,7 +40,8 @@ def get_text(model: str, sys_prompt: str, user_prompt: str, json_output=False) -
         "temperature": 0.75,
     }
     if json_output:
-        payload["messages"].append({"role": "assistant", "content": "{"})
+        # payload["messages"].append({"role": "assistant", "content": "{"})
+        payload["response_format"] = {"type": "json_object"}
     return api_response(model, payload)["response"]
 
 
@@ -83,7 +84,7 @@ def extract_json(answer: str) -> json:
     else:
         print("no code block in answer")
         json_text = answer
-    if "}" not in json_text:
+    if "{" in json_text and "}" not in json_text:
         json_text += "}"
     try:
         _json = json.loads(json_text)
@@ -111,7 +112,7 @@ def hallucinator() -> json:
         drug_n_topic = get_text(
             model,
             sys_prompt="You are a helpful assistant with knowledge of various random and interesting fields",
-            user_prompt="just name 1 random Hallucinogen and 1 unrelated topic in a csv format with only name",
+            user_prompt="just name 1 random Hallucinogen and 1 unrelated pokemon in a csv format with only name",
         )
         time.sleep(0.8 * retries)
         retries -= 1
@@ -126,7 +127,14 @@ def hallucinator() -> json:
         f" imageTitle should be description summary in less than 10 words",
         json_output=True,
     )
-    return extract_json(output)
+    # return extract_json(output)
+    try:
+        return json.loads(output)
+    # TODO: extract_json can be removed if json mode doesn't fail
+    except json.JSONDecodeError as e:
+        print(f"JSON mode failed for - {e.msg}")
+        print(output)
+        raise json.JSONDecodeError
 
 
 if __name__ == "__main__":
