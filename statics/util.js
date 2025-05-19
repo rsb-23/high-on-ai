@@ -44,6 +44,23 @@ function updateImageDetails() {
   // Set image source
   const imagePath = `iotd/${imageKey}.png`;
   imageDiv.src = imagePath;
+
+  // preload yesterday's image
+  imageDiv.onload = function () {
+    const preloadDate = new Date(displayDate);
+    preloadDate.setDate(displayDate.getDate() - 1);
+//    preloadImage(preloadDate);
+  };
+}
+
+function preloadImage(imageDate) {
+  const imageKey = getNestedDate(imageDate);
+  const imagePath = `iotd/${imageKey}.png`;
+  const img = new Image();
+  img.src = imagePath; // Browser starts downloading the image
+  img.onerror = function () {
+    img.src = "iotd/default.png";
+  };
 }
 
 function timePad(x) {
