@@ -1061,6 +1061,126 @@
     "randomTopic": "Sceptile",
     "title": "Electric Dragon in a Kaleidoscope of Colors"
   },
+  "2025-05/22": {
+    "description": "A serene watercolor painting of a bustling bakery filled with an assortment of freshly baked goods, surrounded by lush greenery and earthy tones, celebrating the joy of World Baking Day.",
+    "style": "Earthy Watercolor",
+    "title": "Sweet Earthy Delights",
+    "topic": "World Baking Day"
+  },
+  "2025-05/23": {
+    "description": "A serene depiction of a pond with a group of turtles swimming and basking in the sun, surrounded by lush greenery and vibrant flowers, created using the Pointillism technique with small dots of color.",
+    "style": "Pointillism",
+    "title": "Turtles in a Pond",
+    "topic": "World Turtles Day"
+  },
+  "2025-05/24": {
+    "description": "A drybrushing artwork depicting a blue and red world map with a red ribbon wrapped around it, symbolizing diabetes awareness. The ribbon is gently brushed with thick strokes, giving it a textured and emotional feel. In the center of the map, a pair of hands are holding a white flower, representing hope and resilience in the face of the disease.",
+    "style": "Drybrushing",
+    "title": "Diabetes Awareness",
+    "topic": "World Diabetes Day"
+  },
+  "2025-05/25": {
+    "description": "A poignant depiction of a veteran in a worn, faded American flag, with subtle textures and muted colors, conveying a sense of nostalgia and reverence.",
+    "style": "Scumbling",
+    "title": "Honoring Fallen Heroes",
+    "topic": "Memorial Day"
+  },
+  "2025-05/26": {
+    "description": "A vibrant street art piece depicting wine bottles and glasses, amidst confetti and balloons, with bold colors and dynamic brushstrokes, capturing the joy and excitement of National Wine Day.",
+    "style": "Spray Painting",
+    "title": "Wine Celebration",
+    "topic": "National Wine Day"
+  },
+  "2025-05/27": {
+    "description": "A nostalgic and patriotic image of a Memorial Day gathering, with American flags waving in the background, and a sea of people paying their respects to fallen soldiers. The image is created using the scumbling technique, giving it a textured and weathered look, reminiscent of old photographs.",
+    "style": "Scumbling",
+    "title": "Patriotic Tribute",
+    "topic": "Memorial Day"
+  },
+  "2025-05/28": {
+    "description": "A serene landscape of a sun-kissed meadow, with a blue sky and fluffy white clouds, as people gather to enjoy the warmest day of the year, surrounded by vibrant flowers and lush greenery.",
+    "style": "Glazing",
+    "title": "Summer's Warmest Moment",
+    "topic": "Seasonal Landscape"
+  },
+  "2025-05/29": {
+    "description": "A haunting Monotype print of a grayscale American flag waving in the wind, with various symbols of remembrance and patriotism scattered around it, including poppies, ribbons, and a faint image of a soldier in the background.",
+    "style": "Monotype",
+    "title": "Honoring Fallen Heroes",
+    "topic": "Memorial Day"
+  },
+  "2025-05/30": {
+    "description": "A poignant depiction of a serene American flag waving gently in the wind, with subtle scumbled textures evoking a sense of nostalgia and reverence for the sacrifices made on Memorial Day. The flag's colors are muted, with hints of red, white, and blue, casting a melancholic yet dignified atmosphere.",
+    "style": "Scumbling",
+    "title": "Honoring Fallen Heroes",
+    "topic": "Memorial Day"
+  },
+  "2025-05/31": {
+    "description": "A portrait of a person surrounded by clouds of smoke, with a cigarette in their hand, painted using tiny dots of color to create a sense of depth and dimension, emphasizing the devastating effects of tobacco on health.",
+    "style": "Pointillism",
+    "title": "No Tobacco Day",
+    "topic": "World No Tobacco Day"
+  },
+  "2025-06/01": {
+    "description": "A vibrant illustration of people enjoying donuts in a park on National Donut Day, created using small dots of color to form an image reminiscent of Pointillism style, with each donut detailed with intricate frosting and sprinkles.",
+    "style": "Pointillism",
+    "title": "Donut Day Celebration",
+    "topic": "National Donut Day"
+  },
+  "2025-06/02": {
+    "description": "A vibrant Scumbling artwork celebrating World Bicycle Day, featuring a young girl riding a bicycle through a lush green landscape, with flowers and trees whizzing by in a blur of color and movement, as the sun shines brightly in the background.",
+    "style": "Scumbling",
+    "title": "Cycling Joy",
+    "topic": "World Bicycle Day"
+  },
+  "2025-06/03": {
+    "description": "The artwork represents the devastating impact of gun violence on communities worldwide, using small dots of color to convey the senseless loss of life.",
+    "style": "Pointillism",
+    "title": "Global Gun Victims",
+    "topic": "World Gun Violence Day"
+  },
+  "2025-06/04": {
+    "description": "A vibrant pointillist depiction of the longest day of the year, captured in a swirling dance of colors.",
+    "style": "Pointillism",
+    "title": "Summer Solstice",
+    "topic": "Special Day"
+  },
+  "2025-06/05": {
+    "description": "Vibrant illustration of Mother Earth surrounded by lush greenery, flowers, and gentle wildlife, set against a bright blue sky, with rays of sunlight bursting out from the Earth, symbolizing unity and balance between nature and humanity.",
+    "style": "Sunburst Technique",
+    "title": "Nature's Harmony",
+    "topic": "World Environment Day"
+  },
+  "2025-06/06": {
+    "description": "A depiction of Allied forces landing on Omaha Beach during the D-Day invasion of Normandy, with vibrant dots of color creating a sense of chaos and turmoil amidst the historical event.",
+    "style": "Pointillism",
+    "title": "Battle of Normandy Invasion",
+    "topic": "Historical Military Event"
+  },
+  "2025-06/07": {
+    "description": "A vibrant depiction of the United Nations celebrating World Accord Day, with people from diverse backgrounds holding hands, symbolizing unity and cooperation. The image is created using the scumbling technique, with rough, textured brushstrokes and a predominantly blue and green color palette, evoking a sense of serenity and tranquility.",
+    "style": "Scumbling",
+    "title": "Global Harmony Celebration",
+    "topic": "World Accord Day"
+  },
+  "2025-06/08": {
+    "description": "Beautiful Scraffito image of a serene ocean scene with vibrant coral reefs, schools of fish, and a majestic whale in the distance, symbolizing the wonders and importance of our oceans on World Oceans Day.",
+    "style": "Scraffito",
+    "title": "Oceanic Bliss",
+    "topic": "World Oceans Day"
+  },
+  "2025-06/09": {
+    "description": "A serene island scene with a darker twist, as a tempest looms in the distance, threatening to disrupt the peaceful atmosphere of the island's paradise.",
+    "style": "Glazing",
+    "title": "Trouble in Paradise",
+    "topic": "Island Scene"
+  },
+  "2025-06/10": {
+    "description": "World Pet Day celebrations with people holding various pets such as dogs, cats, birds, and even a rabbit, all surrounded by vibrant flowers and a bright sunny sky, set against a textured background created using scumbling technique to give a unique, weathered effect.",
+    "style": "Scumbling",
+    "title": "Furry Friends Unite",
+    "topic": "World Pet Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
