@@ -1,4 +1,4 @@
-cave_painting = (
+CAVE_PAINTING = (
     "Generate a cave painting that symbolically represents the topic '{topic}' as imagined by early "
     "humans. Use a primitive, prehistoric style with simple, rough shapes and earthy pigments like "
     "ochre, charcoal, and clay. Render the image on a textured cave wall, incorporating natural elements "

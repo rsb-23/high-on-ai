@@ -39,3 +39,10 @@ def save_details(image_key: str, image_details: ImageDetails):
     data[image_key] = vars(image_details)
     with open(data_file, "w") as f:
         json.dump(data, f, indent=2, sort_keys=True)
+        f.write("\n")  # linter checks for trailing newlines
+
+
+def save_response_dev(x):
+    """Save response to the resp.json file in debug mode."""
+    with open("resp.json", "w") as f:
+        json.dump(x, f)

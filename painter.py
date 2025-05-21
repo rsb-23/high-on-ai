@@ -5,6 +5,8 @@ from datetime import datetime, timedelta
 from utils.cf_api import close_session, generate_image, get_text, remove_quotes
 from utils.file_handler import ImageDetails, save_details, save_image
 
+TOMORROW = (datetime.now() + timedelta(1)).strftime("%Y-%m/%d")
+
 
 def hallucinator() -> ImageDetails:
     model = "meta/llama-3.1-8b-instruct"
@@ -44,8 +46,7 @@ def artist() -> ImageDetails:
         model,
         sys_prompt="You are a helpful assistant with knowledge of various art techniques and all special days",
         user_prompt=f"just name 1 random art technique and what's special about date {TOMORROW} in a csv "
-        f"format"
-        f" with only name",
+        "format with only name",
     )
     print(f"{style_n_topic=}")
     style, topic = remove_quotes(style_n_topic).split(",", 1)
@@ -66,8 +67,6 @@ def gen_and_save_image(prompt, image_details: ImageDetails):
 
 
 if __name__ == "__main__":
-    TOMORROW = (datetime.now() + timedelta(1)).strftime("%Y-%m/%d")
-
     imagination = artist()
     print(f"topic={imagination.topic}, style={imagination.style}, title={imagination.title}")
     print(imagination.description)

@@ -6,6 +6,7 @@ import time
 from requests import Session
 
 from utils.constants import CF_ACCOUNT_ID, CF_API_KEY, SAVE_RESPONSE
+from utils.file_handler import save_response_dev
 
 API_BASE_URL = f"https://api.cloudflare.com/client/v4/accounts/{CF_ACCOUNT_ID}/ai/run"
 headers = {"Authorization": f"Bearer {CF_API_KEY}"}
@@ -24,8 +25,7 @@ def api_response(model, payload):
     x = response.json()
     print("api call time", time.perf_counter() - start)
     if SAVE_RESPONSE:
-        with open("resp.json", "w") as f:
-            json.dump(x, f)
+        save_response_dev(x)
     if x["success"]:
         return x["result"]
 
@@ -57,7 +57,7 @@ def extract_json(answer: str) -> json:
     if "```" in answer:
         a = answer.find("```")
         b = answer.find("```", a + 5)
-        json_text = answer[a + 3: b].strip().lstrip("json").strip()
+        json_text = answer[a + 3 : b].strip().lstrip("json").strip()
     else:
         print("no code block in answer")
         json_text = answer
@@ -72,8 +72,8 @@ def extract_json(answer: str) -> json:
 
         try:
             _json = json.loads(json_text)
-        except json.JSONDecodeError as e:
-            print("error2", e.doc, e.pos, "\n", e.msg)
+        except json.JSONDecodeError as e2:
+            print("error2", e2.doc, e2.pos, "\n", e2.msg)
             raise
     return _json
 
