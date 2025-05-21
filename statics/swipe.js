@@ -27,6 +27,21 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function triggerUpdate(diff) {
+  const direction = diff === 1 ? "left" : "right";
+
+  const swipeArea = document.getElementById("swipe-area");
+
+  // // Add swipe animation
+  // swipeArea.classList.add(`swipe-${direction}`);
+  // setTimeout(() => {
+  //   swipeArea.classList.remove(`swipe-${direction}`);
+  // }, 300); // Match the CSS transition duration
+
+  // Add loading indicator
+  swipeArea.classList.add("loading");
+  setTimeout(() => {
+    swipeArea.classList.remove("loading");
+  }, 500); // Simulate loading time
   displayDate.setDate(displayDate.getDate() + diff);
   updateImageDetails();
 }

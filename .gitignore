@@ -4,4 +4,4 @@ __pycache__/
 *.env
 
 resp.json
-json_parser.py
+utils/json_parser.py
