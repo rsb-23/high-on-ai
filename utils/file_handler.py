@@ -1,11 +1,11 @@
 import json
-from dataclasses import dataclass
+
+from pydantic import BaseModel
 
 from utils.constants import DATA_PATH
 
 
-@dataclass
-class ImageDetails:
+class ImageDetails(BaseModel):
     description: str = ""
     style: str = ""
     title: str = ""

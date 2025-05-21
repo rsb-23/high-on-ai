@@ -33,16 +33,16 @@ def api_response(model, payload):
     raise IOError
 
 
-def get_text(model: str, sys_prompt: str, user_prompt: str, json_output=False) -> str:
-    if json_output:
+def get_text(model: str, sys_prompt: str, user_prompt: str, json_schema: dict = None) -> str | dict:
+    if json_schema:
         sys_prompt += " Only reply as single valid json"
     payload = {
         "messages": [{"role": "system", "content": sys_prompt}, {"role": "user", "content": user_prompt}],
         "temperature": 0.75,
     }
-    if json_output:
+    if json_schema:
         # payload["messages"].append({"role": "assistant", "content": "{"})
-        payload["response_format"] = {"type": "json_object"}  # noqa
+        payload["response_format"] = {"type": "json_schema", "json_schema": json_schema}  # noqa
     return api_response(model, payload)["response"]
 
 

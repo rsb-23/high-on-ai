@@ -3,7 +3,7 @@ import time
 from datetime import datetime, timedelta
 
 from utils.cf_api import close_session, generate_image, get_text, remove_quotes
-from utils.file_handler import save_details, save_image, ImageDetails
+from utils.file_handler import ImageDetails, save_details, save_image
 
 
 def hallucinator() -> ImageDetails:
@@ -19,18 +19,18 @@ def hallucinator() -> ImageDetails:
         retries -= 1
     print(f"{drug_n_topic=}")
     drug, topic = remove_quotes(drug_n_topic).split(",", 1)
-    output_json = ImageDetails(style=drug)
+    # output_json = ImageDetails(style=drug)
     output = get_text(
         model,
         sys_prompt="You are a drug researcher who is a creative and imaginative artist too.",
         user_prompt=f"Describe an image about {topic} as described by some person under the influence {drug}. "
-                    f"json format should be {output_json.to_json_str()},"
-                    f" imageTitle should be description summary in less than 10 words",
-        json_output=True,
+        # f"json format should be {output_json.to_json_str()},"
+        f" imageTitle should be description summary in less than 10 words",
+        json_schema=ImageDetails.model_json_schema(),
     )
     # return extract_json(output)
     try:
-        return ImageDetails(**json.loads(output))
+        return ImageDetails(**output)
     # TODO: extract_json can be removed if json mode doesn't fail
     except json.JSONDecodeError as e:
         print(f"JSON mode failed for - {e.msg}")
@@ -44,22 +44,19 @@ def artist() -> ImageDetails:
         model,
         sys_prompt="You are a helpful assistant with knowledge of various art techniques and all special days",
         user_prompt=f"just name 1 random art technique and what's special about date {TOMORROW} in a csv "
-                    f"format"
-                    f" with only name",
+        f"format"
+        f" with only name",
     )
     print(f"{style_n_topic=}")
     style, topic = remove_quotes(style_n_topic).split(",", 1)
-    output_json = ImageDetails(style=style)
     output = get_text(
         model,
         sys_prompt="You are a famous artist who has great imagination and knows intricacies of all styles.",
-        user_prompt=f"Describe an image about {topic} drawn in claymation style."
-                    f"json format should be {output_json.to_json_str()},"
-                    f" summarize a long description in less than 6 words for 'title'",
-        json_output=True,
+        user_prompt=f"Describe an image about {topic} drawn in {style} style."
+        f" summarize a long description in less than 6 words for 'title'",
+        json_schema=ImageDetails.model_json_schema(),
     )
-
-    return ImageDetails(**json.loads(output))
+    return ImageDetails(**output)
 
 
 def gen_and_save_image(prompt, image_details: ImageDetails):
