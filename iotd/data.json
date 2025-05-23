@@ -1073,6 +1073,12 @@
     "title": "Turtles in a Pond",
     "topic": "World Turtles Day"
   },
+  "2025-05/24": {
+    "description": "A drybrushing artwork depicting a blue and red world map with a red ribbon wrapped around it, symbolizing diabetes awareness. The ribbon is gently brushed with thick strokes, giving it a textured and emotional feel. In the center of the map, a pair of hands are holding a white flower, representing hope and resilience in the face of the disease.",
+    "style": "Drybrushing",
+    "title": "Diabetes Awareness",
+    "topic": "World Diabetes Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
