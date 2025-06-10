@@ -1181,6 +1181,12 @@
     "title": "Furry Friends Unite",
     "topic": "World Pet Day"
   },
+  "2025-06/11": {
+    "description": "This etching depicts a parched desert landscape with withered trees and cracked earth, emphasizing the devastating effects of desertification and drought on the environment. The artwork highlights the urgent need for conservation and sustainable land use practices to combat this global issue.",
+    "style": "Etching",
+    "title": "Dry Lands Suffering",
+    "topic": "World Day to Combat Desertification and Drought"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
