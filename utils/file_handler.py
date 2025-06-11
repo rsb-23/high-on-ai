@@ -1,5 +1,7 @@
 import json
+from io import BytesIO
 
+from PIL import Image
 from pydantic import BaseModel
 
 from utils.constants import DATA_PATH
@@ -21,11 +23,10 @@ class ImageDetails(BaseModel):
 def save_image(filename: str, content: bytes) -> None:
     """Save an image to the data directory."""
 
-    output_file = DATA_PATH / f"{filename}.png"
+    output_file = DATA_PATH / f"{filename}.webp"
     output_file.parent.mkdir(exist_ok=True)  # creates parent dir if not present
 
-    with open(output_file, "wb") as file:
-        file.write(content)
+    Image.open(BytesIO(content)).save(output_file, "webp")
     print(f"Image saved as {output_file}")
 
 

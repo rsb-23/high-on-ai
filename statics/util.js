@@ -4,6 +4,7 @@ let imageData;
 
 imageDiv = document.getElementById("image");
 descDiv = document.getElementById("description");
+
 // Load the JSON data
 async function loadImageData() {
   console.info("loading json...");
@@ -41,15 +42,21 @@ function updateImageDetails() {
   }
   const description = imageData[imageKey]["title"] || "no description found";
   descDiv.textContent = description;
-  // Set image source
-  const imagePath = `iotd/${imageKey}.png`;
-  imageDiv.src = imagePath;
+
+  // Set image source with fallback
+  imageDiv.src = `iotd/${imageKey}.webp`;
+  imageDiv.addEventListener("error", function () {
+    if (!image.dataset.fallback) {
+      image.dataset.fallback = "true";
+      image.src = `iotd/${imageKey}.png`; // fallback
+    }
+  });
 
   // preload yesterday's image
   imageDiv.onload = function () {
     const preloadDate = new Date(displayDate);
     preloadDate.setDate(displayDate.getDate() - 1);
-//    preloadImage(preloadDate);
+    // preloadImage(preloadDate);
   };
 }
 

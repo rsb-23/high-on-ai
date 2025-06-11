@@ -46,11 +46,10 @@ def get_text(model: str, sys_prompt: str, user_prompt: str, json_schema: dict = 
     return api_response(model, payload)["response"]
 
 
-def generate_image(prompt):
+def generate_image(prompt) -> bytes:
     payload = {"prompt": prompt, "num_steps": 5}
     base64_string = api_response("black-forest-labs/flux-1-schnell", payload=payload)["image"]
-    image_data = base64.b64decode(base64_string)
-    return image_data
+    return base64.b64decode(base64_string)
 
 
 def extract_json(answer: str) -> json:

@@ -41,7 +41,7 @@ def hallucinator() -> ImageDetails:
 
 
 def artist() -> ImageDetails:
-    model = "meta/llama-3.1-8b-instruct"
+    model = "meta/llama-3.1-70b-instruct"
     style_n_topic = get_text(
         model,
         sys_prompt="You are a helpful assistant with knowledge of various art techniques and all special days",
