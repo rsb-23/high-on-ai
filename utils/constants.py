@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 
 if "CF_API_KEY" not in os.environ:
     from dotenv import load_dotenv  # noqa
@@ -8,3 +9,5 @@ if "CF_API_KEY" not in os.environ:
 CF_ACCOUNT_ID = os.environ["CF_ACCOUNT_ID"]
 CF_API_KEY = os.environ["CF_API_KEY"]
 SAVE_RESPONSE = os.environ.get("SAVE_RESPONSE", False)
+
+DATA_PATH = Path("iotd")
