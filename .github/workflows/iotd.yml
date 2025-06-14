@@ -36,7 +36,7 @@ jobs:
         shell: bash
 
       - name: Git push
-        uses: rsb-23/actions/.github/workflows/git-push.yml@main
+        uses: rsb-23/actions/git-push@main
         with:
           git_user: "painter[bot]"
           commit_message: "new image generated"
