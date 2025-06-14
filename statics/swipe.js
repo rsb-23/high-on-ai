@@ -37,11 +37,9 @@ function triggerUpdate(diff) {
   //   swipeArea.classList.remove(`swipe-${direction}`);
   // }, 300); // Match the CSS transition duration
 
-  // Add loading indicator
+  // Adds loading indicator
   swipeArea.classList.add("loading");
-  setTimeout(() => {
-    swipeArea.classList.remove("loading");
-  }, 500); // Simulate loading time
   displayDate.setDate(displayDate.getDate() + diff);
   updateImageDetails();
+  swipeArea.classList.remove("loading");
 }
