@@ -35,13 +35,9 @@ jobs:
           python painter.py
         shell: bash
 
-      - name: Configure Git
-        run: |
-          git config user.name "painter[bot]"
-          git config user.email "41895282+github-actions[bot]@users.noreply.github.com"
-
-      - name: Commit and push file
-        run: |
-          git add .
-          git commit -m 'new image generated'
-          git push origin ${{ env.COMMIT_BRANCH }}
+      - name: Git push
+        uses: rsb-23/actions/.github/workflows/git-push.yml@main
+        with:
+          git_user: "painter[bot]"
+          commit_message: "new image generated"
+          branch: ${{ env.COMMIT_BRANCH }}
