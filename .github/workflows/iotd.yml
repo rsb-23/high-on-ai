@@ -20,7 +20,9 @@ jobs:
           cache: "pip"
       - name: Get files
         shell: bash
-        run: git checkout gh-pages -- iotd/data.json
+        run: |
+          git fetch origin gh-pages --depth=1
+          git checkout gh-pages -- iotd/data.json
 
       - name: Generates image
         env:
