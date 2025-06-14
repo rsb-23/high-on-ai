@@ -18,6 +18,9 @@ jobs:
         with:
           python-version: 3.12
           cache: "pip"
+      - name: Get files
+        shell: bash
+        run: git show gh-pages:iotd/data.json > iotd/data.json
 
       - name: Generates image
         env:
