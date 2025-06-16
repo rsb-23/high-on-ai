@@ -1217,6 +1217,12 @@
     "title": "Flying High",
     "topic": "Civil Aviation Day"
   },
+  "2025-06/17": {
+    "description": "A vibrant pointillist artwork depicting a vast, arid landscape with scattered trees and a few animals, symbolizing the struggle against desertification. The dots of color blend to form a sense of movement, as if the desert is slowly reclaiming the land. In the distance, a subtle image of a person planting a tree emerges, representing hope and resilience.",
+    "style": "Pointillism",
+    "title": "Desert Bloom",
+    "topic": "World Day to Combat Desertification and Drought"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
