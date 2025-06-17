@@ -1223,6 +1223,12 @@
     "title": "Desert Bloom",
     "topic": "World Day to Combat Desertification and Drought"
   },
+  "2025-06/18": {
+    "description": "A poignant scene of refugees fleeing war-torn countries, seeking safety and hope, is depicted in a Pointillism style, with tiny dots of color blending together to form a powerful and emotive image. The refugees are shown carrying their belongings, with worried expressions on their faces, as they journey through a desolate landscape. The Pointillism technique adds a sense of depth and texture to the image, drawing the viewer's eye to the intricate details of the scene.",
+    "style": "Pointillism",
+    "title": "Refugees in Exile",
+    "topic": "World Refugee Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
