@@ -1247,6 +1247,12 @@
     "title": "Rhythmic Dots Unite",
     "topic": "World Music Day"
   },
+  "2025-06/22": {
+    "description": "Vibrant colors of sunrise dance across the canvas, as thick layers of paint create a textured, three-dimensional effect. The Impasto style brings to life the warmth and energy of the Summer Solstice, with bold brushstrokes and a kaleidoscope of hues. The scene depicts a serene landscape at dawn, with the sun peeking above the horizon, casting a golden glow on the rolling hills and lush greenery.",
+    "style": "Impasto",
+    "title": "Summer's Warm Awakening",
+    "topic": "Summer Solstice"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
