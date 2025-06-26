@@ -1277,6 +1277,12 @@
     "title": "Cooling the Global Village",
     "topic": "World Refrigeration Day"
   },
+  "2025-06/27": {
+    "description": "A vibrant depiction of microorganisms thriving in diverse ecosystems, from the human gut to the ocean floor, created using tiny dots of color that blend to form a stunning visual representation of the microbial world.",
+    "style": "Pointillism",
+    "title": "Microbial Life Unveiled",
+    "topic": "World Microbiome Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
