@@ -1289,6 +1289,12 @@
     "title": "UFO Over City",
     "topic": "World UFO Day"
   },
+  "2025-06/29": {
+    "description": "A vibrant, colorful depiction of diverse individuals from around the world, each with a unique story, united by the sickle cell disease. The Pointillism style creates a sense of movement and energy, with tiny dots of color blending together to form a powerful image. The background is a warm, sunny yellow, representing hope and optimism. In the foreground, a large red ribbon, symbolizing awareness and support, wraps around the globe, connecting the individuals and emphasizing the global impact of the disease.",
+    "style": "Pointillism",
+    "title": "United Against Sickle Cell",
+    "topic": "World Sickle Cell Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
