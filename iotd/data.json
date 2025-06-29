@@ -1295,6 +1295,12 @@
     "title": "United Against Sickle Cell",
     "topic": "World Sickle Cell Day"
   },
+  "2025-06/30": {
+    "description": "A swirling vortex of asteroid fragments, set against a deep blue background, with thick, heavy brushstrokes and textured paint, creating a dynamic and three-dimensional effect, evoking a sense of chaos and destruction.",
+    "style": "Impasto",
+    "title": "Asteroid Chaos",
+    "topic": "World Asteroid Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
