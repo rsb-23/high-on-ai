@@ -1301,6 +1301,12 @@
     "title": "Asteroid Chaos",
     "topic": "World Asteroid Day"
   },
+  "2025-07/01": {
+    "description": "A vibrant, textured depiction of a UFO hovering above a bustling cityscape, with bold brushstrokes and thick layers of paint creating a dynamic, three-dimensional effect. The UFO's metallic surface glimmers in shades of silver and blue, while the city below is a kaleidoscope of colors, with buildings and trees blending together in a swirling vortex. The impasto technique adds a tactile quality to the image, inviting the viewer to touch the rough, raised surfaces.",
+    "style": "Impasto",
+    "title": "UFO City Invasion",
+    "topic": "World UFO Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
