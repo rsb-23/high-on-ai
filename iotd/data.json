@@ -1325,6 +1325,12 @@
     "title": "Cosmic UFO Invasion",
     "topic": "World UFO Day"
   },
+  "2025-07/05": {
+    "description": "A vibrant, textured depiction of a globe with various animals and humans interconnected, highlighting the transmission of diseases across species. Thick, heavy brushstrokes and raised patterns create a dynamic, three-dimensional effect.",
+    "style": "Impasto",
+    "title": "Global Health Interconnected",
+    "topic": "World Zoonoses Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
