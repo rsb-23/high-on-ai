@@ -1349,6 +1349,12 @@
     "title": "Math 2B Day",
     "topic": "Math Classroom Scene"
   },
+  "2025-07/09": {
+    "description": "A vibrant, textured depiction of diverse people from different cultures and age groups, all connected and intertwined, forming a large, swirling vortex that represents the ever-growing global population. The impasto technique adds a three-dimensional quality, with thick layers of paint creating a raised, almost sculptural effect.",
+    "style": "Impasto",
+    "title": "Unity in Diversity",
+    "topic": "World Population Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
