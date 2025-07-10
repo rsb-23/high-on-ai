@@ -1361,6 +1361,12 @@
     "title": "Lunar UFO Encounter",
     "topic": "World UFO Day"
   },
+  "2025-07/11": {
+    "description": "A vibrant Pointillism artwork depicting a diverse crowd of people from different cultures, ages, and abilities, blending together to form a cohesive whole, symbolizing unity and solidarity on World Population Day. The dots of color merge to create a sense of movement and energy, representing the dynamic and ever-changing nature of the global population.",
+    "style": "Pointillism",
+    "title": "Unity in Diversity",
+    "topic": "World Population Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
