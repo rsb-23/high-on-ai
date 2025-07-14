@@ -1385,6 +1385,12 @@
     "title": "Bastille Day Celebration",
     "topic": "French National Holiday"
   },
+  "2025-07/15": {
+    "description": "A vibrant depiction of young individuals from diverse backgrounds gathered around a globe, each contributing their skills and talents to create a brighter future. The Pointillism style adds a sense of movement and energy to the scene, with tiny dots of color blending together to form a cohesive and dynamic image.",
+    "style": "Pointillism",
+    "title": "Youth Unite",
+    "topic": "World Youth Skills Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
