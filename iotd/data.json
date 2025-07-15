@@ -1391,6 +1391,12 @@
     "title": "Youth Unite",
     "topic": "World Youth Skills Day"
   },
+  "2025-07/16": {
+    "description": "A vibrant, swirling depiction of snakes from around the world, created using tiny dots of color that blend together to form a mesmerizing pattern. The snakes appear to be dancing and twirling around each other, set against a backdrop of lush greenery and exotic flowers. The Pointillism style adds a sense of energy and movement to the image, as if the snakes are alive and slithering across the canvas.",
+    "style": "Pointillism",
+    "title": "Snakes Alive",
+    "topic": "World Snake Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
