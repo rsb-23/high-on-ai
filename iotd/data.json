@@ -1421,6 +1421,12 @@
     "title": "Chessboard Harmony",
     "topic": "World Chess Day"
   },
+  "2025-07/21": {
+    "description": "A vibrant depiction of people from diverse cultures and age groups, standing together, holding hands, and jumping in unison, creating a sense of global unity and joy. The Pointillism style adds a dynamic and playful touch to the image, with tiny dots of color blending together to form a stunning visual representation of the World Jump Day celebration.",
+    "style": "Pointillism",
+    "title": "United We Jump",
+    "topic": "World Jump Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
