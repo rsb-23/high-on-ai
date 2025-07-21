@@ -1427,6 +1427,12 @@
     "title": "United We Jump",
     "topic": "World Jump Day"
   },
+  "2025-07/22": {
+    "description": "A dreamy, ethereal depiction of the human brain, with soft, feathery brushstrokes and muted colors, evoking a sense of mystery and wonder. The brain is surrounded by swirling clouds and subtle, shimmering lights, as if it is floating in a celestial realm. The overall effect is one of enchantment and awe, inviting the viewer to contemplate the intricacies of the human mind.",
+    "style": "Claude Glass",
+    "title": "Brain in Ethereal Realm",
+    "topic": "World Brain Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
