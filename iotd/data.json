@@ -1439,6 +1439,12 @@
     "title": "Freedom's Joyful Burst",
     "topic": "Emancipation Day"
   },
+  "2025-07/24": {
+    "description": "A vibrant Pointillism artwork depicting a serene landscape with lush greenery, colorful flowers, and a calm lake, symbolizing relaxation and tranquility. Tiny dots of paint blend together to create a soothing atmosphere, inviting the viewer to unwind and prioritize self-care. The artwork is a visual representation of the importance of taking a break from the hustle and bustle of daily life and focusing on one's mental and physical well-being.",
+    "style": "Pointillism",
+    "title": "Self-Care Serenity",
+    "topic": "International Self-Care Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
