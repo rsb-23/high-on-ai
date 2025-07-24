@@ -1445,6 +1445,12 @@
     "title": "Self-Care Serenity",
     "topic": "International Self-Care Day"
   },
+  "2025-07/25": {
+    "description": "A vibrant depiction of a majestic dragon, surrounded by swirling clouds and flames, created using tiny dots of color in the Pointillism style. The dragon's scales shimmer in shades of blue and green, while its wings spread wide, embracing the sky. The background is a warm, golden hue, evoking a sense of ancient mythology.",
+    "style": "Pointillism",
+    "title": "Dragon's Fiery Majesty",
+    "topic": "World Dragon Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
