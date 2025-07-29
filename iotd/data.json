@@ -1475,6 +1475,12 @@
     "title": "Tiger's Fierce Gaze",
     "topic": "International Tiger Day"
   },
+  "2025-07/30": {
+    "description": "A vibrant Pointillism artwork depicting diverse people from different cultures and backgrounds coming together, forming a united circle, with each dot representing an individual, blending into a beautiful, harmonious whole, symbolizing the power of friendship and unity.",
+    "style": "Pointillism",
+    "title": "Dots of Unity",
+    "topic": "International Day of Friendship"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
