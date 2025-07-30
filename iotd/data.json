@@ -1481,6 +1481,12 @@
     "title": "Dots of Unity",
     "topic": "International Day of Friendship"
   },
+  "2025-07/31": {
+    "description": "A serene forest landscape with a park ranger in the distance, surrounded by lush greenery and a bright blue sky, created using the cyanotype process, which gives the image a dreamy, ethereal quality. The ranger is shown in a moment of contemplation, highlighting the dedication and passion of those who protect our natural world.",
+    "style": "Cyanotype",
+    "title": "Ranger's Serene Vigil",
+    "topic": "World Ranger Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
