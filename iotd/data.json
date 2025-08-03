@@ -1505,6 +1505,12 @@
     "title": "Feline Whimsy",
     "topic": "International Cat Day"
   },
+  "2025-08/04": {
+    "description": "A vibrant and textured depiction of a bustling beer garden, with patrons from diverse cultures raising their glasses in a joyful toast. The impasto technique adds a tactile quality to the scene, with thick brushstrokes and heavy layers of paint creating a dynamic, three-dimensional effect. The colors are bold and bright, with shades of golden yellow, rich brown, and deep red dominating the palette. The overall mood is one of conviviality and celebration.",
+    "style": "Impasto",
+    "title": "Cheers to Beer",
+    "topic": "International Beer Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
