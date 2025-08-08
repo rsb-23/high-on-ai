@@ -1535,6 +1535,12 @@
     "title": "Feline Dot Delight",
     "topic": "International Cat Day"
   },
+  "2025-08/09": {
+    "description": "A vibrant Pointillism artwork depicting a diverse group of indigenous people from around the world, each with their unique traditional attire and cultural symbols, gathered around a globe, surrounded by lush greenery and colorful flowers, with subtle hints of their ancestral lands and heritage in the background.",
+    "style": "Pointillism",
+    "title": "Unity in Diversity",
+    "topic": "International Day of the Worlds Indigenous Peoples"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
