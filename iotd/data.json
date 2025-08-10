@@ -1547,6 +1547,12 @@
     "title": "Lion's Majestic Gaze",
     "topic": "World Lion Day"
   },
+  "2025-08/11": {
+    "description": "A majestic elephant stands tall, its gray skin textured with thick, heavy brushstrokes, set against a warm, golden background that evokes the savannas of Africa. The impasto style gives the image a three-dimensional quality, with the elephant's wrinkles and folds seeming to rise up from the canvas. The overall effect is one of grandeur and majesty, as if the elephant is about to step out of the frame and into the viewer's space.",
+    "style": "Impasto",
+    "title": "Elephant Majesty",
+    "topic": "World Elephant Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
