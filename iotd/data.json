@@ -1553,6 +1553,12 @@
     "title": "Elephant Majesty",
     "topic": "World Elephant Day"
   },
+  "2025-08/12": {
+    "description": "A vibrant depiction of young people from diverse backgrounds coming together, surrounded by lush greenery and blooming flowers, with soft, feathery brushstrokes and an emphasis on capturing the fleeting effects of light and color, characteristic of Monet's Broken Color Technique.",
+    "style": "Broken Color Technique",
+    "title": "Youth Blooms in Harmony",
+    "topic": "International Youth Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
