@@ -1559,6 +1559,12 @@
     "title": "Youth Blooms in Harmony",
     "topic": "International Youth Day"
   },
+  "2025-08/13": {
+    "description": "A vibrant Pointillism artwork showcasing a left-hander's world, with tiny dots of color blending to form a dynamic scene of a person writing with their left hand, surrounded by swirling patterns and shapes that evoke a sense of creativity and uniqueness. The dots are densely packed in areas of high detail, such as the subject's face and hand, and more sparse in the background, creating a sense of depth and dimensionality.",
+    "style": "Pointillism",
+    "title": "Lefty's World",
+    "topic": "Left-Handers Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
