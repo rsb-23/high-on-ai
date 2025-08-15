@@ -1577,6 +1577,12 @@
     "title": "Freedom's Vibrant Burst",
     "topic": "Independence Day"
   },
+  "2025-08/16": {
+    "description": "A vibrant depiction of the Battle of Bennington, where American forces defeated the British, is rendered in Pointillism style. Thousands of tiny dots in shades of red, blue, and yellow create a sense of energy and movement, capturing the chaos and intensity of the battle. The dots blend together to form the shapes of soldiers, horses, and cannons, while the background is a swirling mix of colors, evoking the smoke and confusion of war. The overall effect is one of dynamic tension, as if the scene is about to erupt into action.",
+    "style": "Pointillism",
+    "title": "Battle in Dots",
+    "topic": "Bennington Battle Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
