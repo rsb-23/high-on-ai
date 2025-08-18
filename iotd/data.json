@@ -1595,6 +1595,12 @@
     "title": "Daffodils of Hope",
     "topic": "World Daffodil Day"
   },
+  "2025-08/19": {
+    "description": "A vibrant and textured depiction of people from diverse backgrounds coming together, holding hands, and forming a circle, symbolizing unity and solidarity. The impasto style adds a sense of depth and dimensionality to the image, with thick layers of paint creating a raised, three-dimensional effect. The colors are bold and bright, with shades of blue, green, and yellow dominating the palette, evoking feelings of hope and optimism. The overall mood is one of joy, compassion, and togetherness.",
+    "style": "Impasto",
+    "title": "United We Stand",
+    "topic": "World Humanitarian Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
