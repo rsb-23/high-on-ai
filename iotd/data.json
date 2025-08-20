@@ -1607,6 +1607,12 @@
     "title": "Mosquito Swarm",
     "topic": "World Mosquito Day"
   },
+  "2025-08/21": {
+    "description": "A vibrant depiction of elderly individuals from diverse backgrounds, engaged in various activities such as gardening, reading, and socializing, created using small dots of color that blend to form a cohesive image, conveying a sense of community and joy.",
+    "style": "Pointillism",
+    "title": "Elderly Joy",
+    "topic": "World Senior Citizens Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
