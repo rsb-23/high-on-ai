@@ -1625,6 +1625,12 @@
     "title": "Shackles of Oppression",
     "topic": "International Day for the Remembrance of the Slave Trade and its Abolition"
   },
+  "2025-08/24": {
+    "description": "A serene landscape with daffodils swaying gently in the breeze, set against a soft, dreamy backdrop of rolling hills and misty mountains, all rendered in the soft, muted tones and subtle gradations of Claude Glass style.",
+    "style": "Claude Glass",
+    "title": "Daffodils in Misty Dawn",
+    "topic": "World Daffodil Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
