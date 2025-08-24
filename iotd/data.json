@@ -1631,6 +1631,12 @@
     "title": "Daffodils in Misty Dawn",
     "topic": "World Daffodil Day"
   },
+  "2025-08/25": {
+    "description": "A vibrant depiction of a bearded gentleman, created using tiny dots of color in the Pointillism style, showcasing a majestic beard that flows like a river of wisdom, with each strand meticulously crafted to convey a sense of grandeur and sophistication. The background is a warm, sunny yellow, evoking feelings of joy and celebration, while the subject's eyes twinkle with a hint of mischief, as if he's sharing a secret joke on this special day.",
+    "style": "Pointillism",
+    "title": "Bearded Gentleman",
+    "topic": "World Beard Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
