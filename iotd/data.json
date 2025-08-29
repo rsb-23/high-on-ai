@@ -1661,6 +1661,12 @@
     "title": "Nuclear Tests Unite Us",
     "topic": "International Day Against Nuclear Tests"
   },
+  "2025-08/30": {
+    "description": "A poignant scene of empty chairs, each representing a missing person, is depicted in a Pointillism style, with tiny dots of color blending together to form a powerful image. The chairs are arranged in a circular pattern, symbolizing the unity and solidarity of those who are left behind. The background is a somber gray, with splashes of vibrant colors to represent the hope and resilience of the families and loved ones of the disappeared. The overall effect is one of haunting beauty and powerful emotion.",
+    "style": "Pointillism",
+    "title": "Missing Souls",
+    "topic": "International Day of the Disappeared"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
