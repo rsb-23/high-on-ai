@@ -1673,6 +1673,12 @@
     "title": "Hope Beyond the Dots",
     "topic": "International Overdose Awareness Day"
   },
+  "2025-09/01": {
+    "description": "A serene landscape with a lone figure sitting by a lake, surrounded by lush greenery, with a letter in hand, lost in thought. The Claude Glass style gives the scene a soft, dreamy quality, with muted colors and gentle brushstrokes. The atmosphere is peaceful and contemplative, inviting the viewer to step into the tranquil world of the writer.",
+    "style": "Claude Glass",
+    "title": "Tranquil Writer",
+    "topic": "World Letter Writing Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
