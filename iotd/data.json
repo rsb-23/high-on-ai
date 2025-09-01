@@ -1679,6 +1679,12 @@
     "title": "Tranquil Writer",
     "topic": "World Letter Writing Day"
   },
+  "2025-09/02": {
+    "description": "A vibrant, textured depiction of vultures soaring through a bright blue sky, with bold brushstrokes and thick layers of paint creating a dynamic, three-dimensional effect. The vultures' feathers are rendered in shades of brown and white, with subtle hints of pink and purple, while the sky is a brilliant blue with wispy clouds. The overall effect is one of energy and movement, capturing the majesty and beauty of these often-misunderstood birds.",
+    "style": "Impasto",
+    "title": "Vultures Soar",
+    "topic": "International Vulture Awareness Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
