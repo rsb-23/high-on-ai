@@ -1685,6 +1685,12 @@
     "title": "Vultures Soar",
     "topic": "International Vulture Awareness Day"
   },
+  "2025-09/03": {
+    "description": "A vibrant depiction of people from diverse cultures and age groups gathered around a giant book, with each person holding a smaller book or reading material, set against a bright blue background with subtle hints of green and yellow, created using tiny dots of color in Pointillism style.",
+    "style": "Pointillism",
+    "title": "Literacy Unites",
+    "topic": "International Literacy Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
