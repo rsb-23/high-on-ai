@@ -1691,6 +1691,12 @@
     "title": "Literacy Unites",
     "topic": "International Literacy Day"
   },
+  "2025-09/04": {
+    "description": "A majestic lion's face emerges from a soft, hazy background, its features blurred yet defined, as if veiled in a misty atmosphere. The sfumato technique creates a sense of depth and volume, drawing the viewer's eye into the lion's gaze. The subtle gradations of tone and value evoke a sense of mystery and awe, inviting the viewer to contemplate the beauty and power of the natural world.",
+    "style": "Sfumato",
+    "title": "Lion's Gentle Gaze",
+    "topic": "World Wildlife Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
