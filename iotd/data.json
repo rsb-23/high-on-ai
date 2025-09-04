@@ -1697,6 +1697,12 @@
     "title": "Lion's Gentle Gaze",
     "topic": "World Wildlife Day"
   },
+  "2025-09/05": {
+    "description": "A vibrant depiction of people from diverse backgrounds coming together to help those in need, with tiny dots of color blending to form a larger image of a globe, symbolizing unity and compassion. The Pointillism style adds a sense of movement and energy to the piece, conveying the idea that even small actions can come together to make a big difference.",
+    "style": "Pointillism",
+    "title": "Unity in Dots",
+    "topic": "International Day of Charity"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
