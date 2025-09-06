@@ -1709,6 +1709,12 @@
     "title": "Reading Bliss",
     "topic": "Read a Book Day"
   },
+  "2025-09/07": {
+    "description": "A vibrant, colorful depiction of a bearded gentleman, created using tiny dots of paint in the Pointillism style. The subject's beard is the main focus, with swirling patterns and shapes formed by the dots, giving the image a sense of movement and energy. The background is a warm, sunny yellow, representing a bright and cheerful day. The overall effect is one of joy and celebration, perfect for World Beard Day.",
+    "style": "Pointillism",
+    "title": "Bearded Joy",
+    "topic": "World Beard Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
