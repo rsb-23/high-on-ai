@@ -1715,6 +1715,12 @@
     "title": "Bearded Joy",
     "topic": "World Beard Day"
   },
+  "2025-09/08": {
+    "description": "A vibrant Pointillism artwork depicting people from diverse cultures and age groups gathered around a giant book, with each dot meticulously placed to create a sense of movement and energy. The colors blend and merge to form a beautiful mosaic, symbolizing the unity and diversity of literacy. The background is a warm, sunny yellow, representing hope and optimism.",
+    "style": "Pointillism",
+    "title": "Literacy Unites",
+    "topic": "International Literacy Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
