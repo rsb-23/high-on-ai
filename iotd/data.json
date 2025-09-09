@@ -1727,6 +1727,12 @@
     "title": "Beatles Shine",
     "topic": "International Beatles Day"
   },
+  "2025-09/10": {
+    "description": "A delicate, intricate piece featuring a lone figure standing at the edge of a cliff, surrounded by a vast, starry night sky. The figure is rendered in shades of blue, conveying a sense of melancholy and isolation. The stars above are depicted in vibrant, swirling patterns, symbolizing hope and guidance. The overall effect is one of poignant contrast, highlighting the struggle between darkness and light. The Pointillism style adds a sense of fragility and impermanence to the image, underscoring the importance of reaching out for support.",
+    "style": "Pointillism",
+    "title": "Hope Beyond Darkness",
+    "topic": "World Suicide Prevention Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
