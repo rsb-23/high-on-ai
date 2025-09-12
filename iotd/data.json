@@ -1745,6 +1745,12 @@
     "title": "Chocolate Bliss",
     "topic": "World Chocolate Day"
   },
+  "2025-09/13": {
+    "description": "A rich, textured depiction of decadent chocolates, with thick, heavy brushstrokes and vibrant colors, showcasing an assortment of truffles, cakes, and candies, inviting the viewer to indulge in the sweet celebration of International Chocolate Day.",
+    "style": "Impasto",
+    "title": "Chocolate Indulgence",
+    "topic": "International Chocolate Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
