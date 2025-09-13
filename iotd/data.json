@@ -1751,6 +1751,12 @@
     "title": "Chocolate Indulgence",
     "topic": "International Chocolate Day"
   },
+  "2025-09/14": {
+    "description": "A vibrant Pointillism artwork depicting a swashbuckling pirate standing on the bow of a ship, with a colorful parrot perched on his shoulder, set against a bright blue ocean background with tiny dots of various colors creating a sense of movement and energy. The pirate's eye patch and bandana are intricately detailed with tiny dots, adding to the overall sense of texture and depth.",
+    "style": "Pointillism",
+    "title": "Pirate's Colorful Plunder",
+    "topic": "International Talk Like a Pirate Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
