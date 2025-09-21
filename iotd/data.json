@@ -1799,6 +1799,12 @@
     "title": "Peaceful Unity",
     "topic": "International Day of Peace"
   },
+  "2025-09/22": {
+    "description": "A vibrant Pointillist artwork depicting a bustling city street transformed, with tiny dots of greenery and flowers replacing cars, while people of all ages walk, cycle, and play together, promoting a cleaner, healthier environment.",
+    "style": "Pointillism",
+    "title": "Cars Replaced by Greenery",
+    "topic": "International Car Free Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
