@@ -1817,6 +1817,12 @@
     "title": "Rabbits Unite",
     "topic": "International Rabbit Day"
   },
+  "2025-09/25": {
+    "description": "A vibrant depiction of pharmacists from diverse backgrounds gathered around a globe, symbolizing their role in global healthcare. The image is created using tiny dots of color, blending together to form a cohesive and dynamic scene. The pharmacists are shown holding various medicinal plants, pills, and equipment, highlighting their expertise and dedication to their profession. The background is a swirling mix of blues and greens, evoking a sense of movement and energy.",
+    "style": "Pointillism",
+    "title": "Pharmacists Unite",
+    "topic": "World Pharmacist Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
