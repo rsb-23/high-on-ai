@@ -1823,6 +1823,12 @@
     "title": "Pharmacists Unite",
     "topic": "World Pharmacist Day"
   },
+  "2025-09/26": {
+    "description": "Vibrant colors and thick textures blend together to depict a bustling city square on World Tourism Day. People from diverse cultures mingle and take photos in front of iconic landmarks, while hot air balloons and airplanes soar above. The impasto technique adds a raised, three-dimensional quality to the scene, giving it a dynamic and lively feel.",
+    "style": "Impasto",
+    "title": "Tourism Unites",
+    "topic": "World Tourism Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
