@@ -1841,6 +1841,12 @@
     "title": "United Against Rabies",
     "topic": "World Rabies Day"
   },
+  "2025-09/29": {
+    "description": "A vibrant, textured depiction of a heart, with bold brushstrokes and thick layers of paint, conveying the importance of heart health and wellness. The dominant red color represents love, energy, and vitality, while the subtle cracks and ridges evoke a sense of fragility and vulnerability.",
+    "style": "Impasto",
+    "title": "Heart of the Matter",
+    "topic": "World Heart Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
