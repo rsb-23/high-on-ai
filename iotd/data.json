@@ -1853,6 +1853,12 @@
     "title": "Unity in Diversity",
     "topic": "International Translation Day"
   },
+  "2025-10/01": {
+    "description": "A vibrant depiction of a lush green forest, teeming with life, where animals and humans coexist in harmony, surrounded by an array of colorful fruits and vegetables, all created using tiny dots of color in the Pointillism style, evoking a sense of serenity and balance with nature.",
+    "style": "Pointillism",
+    "title": "Veggie Harmony",
+    "topic": "World Vegetarian Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
