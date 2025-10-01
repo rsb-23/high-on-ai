@@ -1859,6 +1859,12 @@
     "title": "Veggie Harmony",
     "topic": "World Vegetarian Day"
   },
+  "2025-10/02": {
+    "description": "A vibrant depiction of iconic buildings from around the world, created using tiny dots of color in the Pointillism style. The image showcases the diversity of architectural styles, from the ancient Pyramids of Giza to the modern skyscrapers of Dubai. The dots blend together to form a stunning mosaic, with each building's unique features and textures visible upon closer inspection. The overall effect is one of dynamic energy and celebration of human ingenuity.",
+    "style": "Pointillism",
+    "title": "Dotted Architectural Marvels",
+    "topic": "World Architecture Day"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
