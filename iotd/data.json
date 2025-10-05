@@ -1883,6 +1883,12 @@
     "title": "Teaching the World",
     "topic": "World Teachers Day"
   },
+  "2025-10/06": {
+    "description": "A vibrant, pointillist depiction of a diverse group of children standing together, holding hands, and forming a human chain, symbolizing unity and solidarity against bullying. The background is a swirling mix of blue and purple dots, representing a world free from bullying. Each child's face is rendered in intricate dots, conveying a sense of individuality and uniqueness. The overall effect is one of hope and resilience.",
+    "style": "Pointillism",
+    "title": "United Against Bullying",
+    "topic": "World Day of Bullying Prevention"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
