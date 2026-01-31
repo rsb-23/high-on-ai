@@ -5,4 +5,3 @@ __pycache__/
 
 resp.json
 utils/json_parser.py
-png2webp.py

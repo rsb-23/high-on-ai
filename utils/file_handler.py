@@ -13,11 +13,11 @@ class ImageDetails(BaseModel):
     title: str = ""
     topic: str = ""
 
-    def to_dict(self):
-        return vars(self)
+    def to_dict(self) -> dict:
+        return self.model_dump()
 
-    def to_json_str(self):
-        return json.dumps(self.to_dict())
+    def to_json_str(self) -> str:
+        return self.model_dump_json()
 
 
 def save_image(filename: str, content: bytes) -> None:

@@ -15,14 +15,14 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: rsb-23/actions/checkout@v1
         with:
           ref: ${{ env.COMMIT_BRANCH }}
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: rsb-23/actions/setup-python@v1
         with:
           python-version: 3.12
-          cache: "pip"
+
       - name: Get files
         shell: bash
         run: |
