@@ -1,4 +1,6 @@
 name: IOTD
+permissions:
+  contents: write
 
 on:
   workflow_dispatch:

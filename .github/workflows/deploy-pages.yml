@@ -17,10 +17,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout page branch
-        uses: actions/checkout@v4
+        uses: rsb-23/actions/checkout@v1
         with:
           ref: ${{ env.PAGE_BRANCH }}
-          fetch-depth: 0
 
       - name: Configure Git
         run: |
