@@ -45,12 +45,12 @@ function updateImageDetails() {
 
   // Set image source with fallback
   imageDiv.src = `iotd/${imageKey}.webp`;
-  imageDiv.addEventListener("error", function () {
-    if (!image.dataset.fallback) {
-      image.dataset.fallback = "true";
-      image.src = `iotd/${imageKey}.png`; // fallback
+  imageDiv.onerror = function () {
+    if (this.src.includes('.webp')) {
+      this.error = null;
+      this.src = `iotd/${imageKey}.png`; // fallback
     }
-  });
+  };
 
   // preload yesterday's image
   imageDiv.onload = function () {
@@ -62,11 +62,11 @@ function updateImageDetails() {
 
 function preloadImage(imageDate) {
   const imageKey = getNestedDate(imageDate);
-  const imagePath = `iotd/${imageKey}.png`;
+  const imagePath = `iotd/${imageKey}.webp`;
   const img = new Image();
   img.src = imagePath; // Browser starts downloading the image
   img.onerror = function () {
-    img.src = "iotd/default.png";
+    img.src = "iotd/default.webp";
   };
 }
 
