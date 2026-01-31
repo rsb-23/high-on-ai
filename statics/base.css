@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(0, 66, 37);
+}
+h1 {
+  color: rgb(245, 245, 220);
+}
+img {
+  max-width: 95%;
+  width: auto;
+  max-height: 80vh;
+  height: auto;
+}
+.description {
+  font-size: 1.2em;
+  color: #ffb000;
+  margin: 10px 0;
+  padding: 0 10px;
+}
+#timer {
+  font-size: 3em;
+  font-family: monospace;
+  color: #ffcf9d;
+  position: fixed;
+  bottom: 10%;
+  right: 10%;
+}
+#swipe-area {
+  width: 100%;
+  min-height: 200px;
+  touch-action: pan-y pinch-zoom;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+}
+
+#swipe-area.swipe-left {
+  transform: translateX(-100%);
+}
+
+#swipe-area.swipe-right {
+  transform: translateX(100%);
+}
+
+#swipe-area.loading::after {
+  content: "Loading...";
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5em;
+  color: #666;
+}
