@@ -12,7 +12,7 @@ env:
   PAGE_BRANCH: "gh-pages"
 
 jobs:
-  commit_new_image:
+  generate_new_image:
     runs-on: ubuntu-latest
 
     steps:
@@ -51,6 +51,9 @@ jobs:
 
       - name: Git commit and push
         run: |
+          git config --global user.name "painter[bot]"
+          git config --global user.email "painter[bot]@users.noreply.github.com"
+          
           git add iotd/
           if git diff --quiet HEAD; then
             echo "No changes detected"
