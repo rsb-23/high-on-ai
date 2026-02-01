@@ -1,11 +1,11 @@
 name: Sync to Pages Branch
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main ]
     paths:
-      - 'index.html'
-      - 'statics/**'
+      - 'pages/**'
 
 permissions:
   contents: write
@@ -23,13 +23,14 @@ jobs:
 
       - name: Configure Git
         run: |
-          git config --global user.name "deploy[bot]"
-          git config --global user.email "deploy[bot]@users.noreply.github.com"
+          git config --global user.name "page-sync[bot]"
+          git config --global user.email "page-sync[bot]@users.noreply.github.com"
 
       - name: Copy files from main branch
         run: |
-          git checkout main -- index.html
-          git checkout main -- statics/
+          git checkout main -- pages/
+          mv pages/* .
+          rmdir pages
 
       - name: Commit and push changes
         id: changes
@@ -38,6 +39,6 @@ jobs:
           if git diff --quiet HEAD; then
             echo "No changes detected"
           else
-            git commit -m "🔄 Sync from main branch"
+            git commit -m "🔄 Sync pages from main branch"
             git push origin ${{ env.PAGE_BRANCH }}
           fi
