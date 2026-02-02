@@ -20,11 +20,7 @@ jobs:
         uses: rsb-23/actions/checkout@v1
         with:
           ref: ${{ env.PAGE_BRANCH }}
-
-      - name: Configure Git
-        run: |
-          git config --global user.name "page-sync[bot]"
-          git config --global user.email "page-sync[bot]@users.noreply.github.com"
+          persist-credentials: true
 
       - name: Copy files from main branch
         run: |
@@ -33,12 +29,7 @@ jobs:
           rmdir pages
 
       - name: Commit and push changes
-        id: changes
-        run: |
-          git add .
-          if git diff --quiet HEAD; then
-            echo "No changes detected"
-          else
-            git commit -m "🔄 Sync pages from main branch"
-            git push origin ${{ env.PAGE_BRANCH }}
-          fi
+        uses: rsb-23/actions/commit-n-push@v1
+        with:
+          git_user: "page-sync[bot]"
+          commit_message: "🔄 Sync pages from main branch"

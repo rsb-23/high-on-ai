@@ -18,6 +18,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: rsb-23/actions/checkout@v1
+        with:
+          persist-credentials: true
+
       - name: Set up Python
         uses: rsb-23/actions/setup-python@v1
         with:
@@ -44,20 +47,14 @@ jobs:
         shell: bash
         run: |
           TMP=$(mktemp -d)
-          cp -r iotd/ $TMP
+          cp -r iotd/ "$TMP"
           git checkout "$PAGE_BRANCH"
-          cp -r $TMP/iotd/ .
+          cp -r "${TMP}/iotd/" .
           rm -rf "$TMP"
 
-      - name: Git commit and push
-        run: |
-          git config --global user.name "painter[bot]"
-          git config --global user.email "painter[bot]@users.noreply.github.com"
-          
-          git add iotd/
-          if git diff --quiet HEAD; then
-            echo "No changes detected"
-          else
-            git commit -m "New images generated"
-            git push origin ${{ env.PAGE_BRANCH }}
-          fi
+      - name: Commit and push changes
+        uses: rsb-23/actions/commit-n-push@v1
+        with:
+          git_user: "painter[bot]"
+          files: "iotd/"
+          commit_message: "New images generated"
