@@ -3,5 +3,8 @@ __pycache__/
 .vscode/
 *.env
 
+iotd/data.json
+iotd/*/*.webp
+
 resp.json
 utils/json_parser.py

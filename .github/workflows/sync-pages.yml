@@ -1,0 +1,35 @@
+name: Sync to Pages Branch
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - 'pages/**'
+
+permissions:
+  contents: write
+env:
+  PAGE_BRANCH: "gh-pages"
+
+jobs:
+  sync-to-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout page branch
+        uses: rsb-23/actions/checkout@main
+        with:
+          ref: ${{ env.PAGE_BRANCH }}
+          persist-credentials: true
+
+      - name: Copy files from main branch
+        run: |
+          git checkout main -- pages/
+          mv pages/* .
+          rmdir pages
+
+      - name: Commit and push changes
+        uses: rsb-23/actions/commit-n-push@main
+        with:
+          git_user: "page-sync[bot]"
+          commit_message: "🔄 Sync pages from main branch"

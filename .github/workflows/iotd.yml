@@ -1,4 +1,6 @@
 name: IOTD
+permissions:
+  contents: write
 
 on:
   workflow_dispatch:
@@ -7,22 +9,28 @@ on:
     - cron: "25 2 * * *"
 
 env:
-  COMMIT_BRANCH: "gh-pages"
+  PAGE_BRANCH: "gh-pages"
 
 jobs:
-  commit_new_image:
+  generate_new_image:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: rsb-23/actions/checkout@main
         with:
-          ref: ${{ env.COMMIT_BRANCH }}
+          persist-credentials: true
+
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: rsb-23/actions/setup-python@main
         with:
           python-version: 3.12
-          cache: "pip"
+
+      - name: Get data.json
+        shell: bash
+        run: |
+          git fetch origin "$PAGE_BRANCH:$PAGE_BRANCH" --depth=1
+          git checkout "$PAGE_BRANCH" -- iotd/data.json
 
       - name: Generates image
         env:
@@ -35,13 +43,18 @@ jobs:
           python painter.py
         shell: bash
 
-      - name: Configure Git
+      - name: Copy changes to ${{ env.PAGE_BRANCH }} branch
+        shell: bash
         run: |
-          git config user.name "painter[bot]"
-          git config user.email "41895282+github-actions[bot]@users.noreply.github.com"
+          TMP=$(mktemp -d)
+          cp -r iotd/ "$TMP"
+          git checkout "$PAGE_BRANCH"
+          cp -r "${TMP}/iotd/" .
+          rm -rf "$TMP"
 
-      - name: Commit and push file
-        run: |
-          git add .
-          git commit -m 'new image generated'
-          git push origin ${{ env.COMMIT_BRANCH }}
+      - name: Commit and push changes
+        uses: rsb-23/actions/commit-n-push@main
+        with:
+          git_user: "painter[bot]"
+          files: "iotd/"
+          commit_message: "New images generated"
