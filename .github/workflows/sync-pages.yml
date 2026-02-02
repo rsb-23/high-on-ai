@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout page branch
-        uses: rsb-23/actions/checkout@v1
+        uses: rsb-23/actions/checkout@main
         with:
           ref: ${{ env.PAGE_BRANCH }}
           persist-credentials: true
@@ -29,7 +29,7 @@ jobs:
           rmdir pages
 
       - name: Commit and push changes
-        uses: rsb-23/actions/commit-n-push@v1
+        uses: rsb-23/actions/commit-n-push@main
         with:
           git_user: "page-sync[bot]"
           commit_message: "🔄 Sync pages from main branch"

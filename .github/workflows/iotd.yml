@@ -17,12 +17,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: rsb-23/actions/checkout@v1
+        uses: rsb-23/actions/checkout@main
         with:
           persist-credentials: true
 
       - name: Set up Python
-        uses: rsb-23/actions/setup-python@v1
+        uses: rsb-23/actions/setup-python@main
         with:
           python-version: 3.12
 
@@ -53,7 +53,7 @@ jobs:
           rm -rf "$TMP"
 
       - name: Commit and push changes
-        uses: rsb-23/actions/commit-n-push@v1
+        uses: rsb-23/actions/commit-n-push@main
         with:
           git_user: "painter[bot]"
           files: "iotd/"
