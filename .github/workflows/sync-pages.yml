@@ -24,9 +24,10 @@ jobs:
 
       - name: Copy files from main branch
         run: |
+          git fetch origin main:main --depth=1 
           git checkout main -- pages/
-          mv pages/* .
-          rmdir pages
+          rsync -a pages/ ./
+          rm -rf pages
 
       - name: Commit and push changes
         uses: rsb-23/actions/commit-n-push@main
