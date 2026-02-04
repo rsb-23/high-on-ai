@@ -1,5 +1,5 @@
-const today = new Date('2025-10-06');
-let displayDate = new Date('2025-09-01');
+const today = new Date();
+let displayDate = new Date();
 let imageData;
 
 imageDiv = document.getElementById("image");
