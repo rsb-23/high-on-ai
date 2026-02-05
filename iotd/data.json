@@ -1901,6 +1901,360 @@
     "title": "Nutella Day Delight",
     "topic": "World Nutella Day"
   },
+  "2026-02/06": {
+    "description": "A vibrant, colorful depiction of a person with lymphedema, surrounded by swirling patterns of blue and purple dots, symbolizing hope and resilience. The pointillism style creates a sense of movement and energy, drawing the viewer's eye to the subject's determined expression.",
+    "style": "Pointillism",
+    "title": "Hope Beyond Swelling",
+    "topic": "World Lymphedema Day"
+  },
+  "2026-02/07": {
+    "description": "A serene landscape with a subtle, dreamy quality, depicting a person in the distance, walking towards a vanishing point, symbolizing the struggle and journey of those affected by pulmonary hypertension. The Claude Glass style adds a sense of melancholy and nostalgia to the scene, with muted colors and soft, feathery brushstrokes.",
+    "style": "Claude Glass",
+    "title": "Fading Light",
+    "topic": "World Pulmonary Hypertension Day"
+  },
+  "2026-02/08": {
+    "description": "A serene landscape of rolling hills and verdant fields, dotted with rustic stone cottages and winding streams, as people of all ages gather to celebrate the humble pulse, depicted in warm, earthy tones and bold brushstrokes, evoking a sense of community and connection to the land.",
+    "style": "Auvergne",
+    "title": "Pulses in Rural Harmony",
+    "topic": "World Pulses Day"
+  },
+  "2026-02/09": {
+    "description": "A vibrant, textured depiction of various pulses, such as lentils, chickpeas, and beans, in a dynamic composition, with thick, heavy brushstrokes and raised, three-dimensional paint, creating a tactile experience. The colors are bold and earthy, evoking a sense of natural abundance and fertility. The overall effect is one of energy and celebration, capturing the spirit of World Pulses Day.",
+    "style": "Impasto",
+    "title": "Pulses in Abundance",
+    "topic": "World Pulses Day"
+  },
+  "2026-02/10": {
+    "description": "A vibrant and textured depiction of two sisters embracing, with bold brushstrokes and thick layers of paint creating a raised, three-dimensional effect. The sisters' faces are filled with joy and love, their smiles and laughter captured in the impasto strokes. The background is a warm, sunny yellow, representing happiness and optimism. The overall effect is one of energy, movement, and celebration.",
+    "style": "Impasto",
+    "title": "Sisters' Joyful Embrace",
+    "topic": "Sisters Day"
+  },
+  "2026-02/11": {
+    "description": "A vibrant depiction of a hospital scene, with tiny dots of color blending together to form compassionate healthcare workers and patients, conveying a sense of hope and care. The Pointillism style creates a sense of movement and energy, as if the dots are radiating warmth and comfort.",
+    "style": "Pointillism",
+    "title": "Healing Hands Unite",
+    "topic": "World Day of the Sick"
+  },
+  "2026-02/12": {
+    "description": "Vibrant, textured hearts and flowers entwined, with bold brushstrokes and thick paint, conveying love and passion.",
+    "style": "Impasto",
+    "title": "Love Entwined",
+    "topic": "Valentines Day"
+  },
+  "2026-02/13": {
+    "description": "A vibrant, textured depiction of a vintage radio set, surrounded by swirling patterns and shapes, evoking the dynamic energy of radio waves. Thick, heavy brushstrokes and raised paint create a tactile experience, drawing the viewer in. The radio's dials and knobs are rendered in bold, expressive strokes, while the background is a kaleidoscope of colors, blending and merging in a joyful celebration of sound and communication.",
+    "style": "Impasto",
+    "title": "Radio Waves Alive",
+    "topic": "World Radio Day"
+  },
+  "2026-02/14": {
+    "description": "A vibrant depiction of lovers embracing, surrounded by hearts and flowers, created using tiny dots of color that blend to form a romantic scene, with Cupid flying above, shooting arrows of love. The dots are densely packed, creating a sense of texture and depth, with a warm color palette that evokes feelings of love and passion.",
+    "style": "Pointillism",
+    "title": "Love in Tiny Dots",
+    "topic": "Valentines Day"
+  },
+  "2026-02/15": {
+    "description": "A vibrant scene of people from diverse backgrounds engaging in various acts of kindness, such as holding doors, giving hugs, and sharing food, all created using tiny dots of color in a Pointillism style, conveying a sense of community and warmth.",
+    "style": "Pointillism",
+    "title": "Kindness in Full Bloom",
+    "topic": "Random Acts of Kindness Day"
+  },
+  "2026-02/16": {
+    "description": "A warm and inviting scene depicting a medieval church on Candlemas Day, with golden light spilling out of the stained glass windows and onto the snow-covered ground. The impasto style adds a textured, almost three-dimensional quality to the image, with thick layers of paint creating a sense of depth and dimensionality. The overall effect is one of cozy warmth and spiritual comfort.",
+    "style": "Impasto",
+    "title": "Candlemas Day Glow",
+    "topic": "Candlemas Day"
+  },
+  "2026-02/17": {
+    "description": "A vibrant depiction of people from diverse backgrounds engaging in various acts of kindness, such as buying coffee for strangers, holding doors open, and offering warm smiles. The Pointillism style creates a sense of movement and energy, with tiny dots of color blending together to form a cohesive and uplifting scene. The overall effect is one of joy and community, highlighting the impact of small acts of kindness on a larger scale.",
+    "style": "Pointillism",
+    "title": "Kindness in Motion",
+    "topic": "Random Acts of Kindness Day"
+  },
+  "2026-02/18": {
+    "description": "A vibrant, textured depiction of a curious child surrounded by swirling clouds of thought, with bold brushstrokes and raised paint creating a dynamic, three-dimensional effect. The child's eyes are wide with wonder, and their hands are cupped around a glowing orb, as if holding a precious secret. The background is a deep, rich blue, evoking a sense of limitless possibility.",
+    "style": "Impasto",
+    "title": "Curious Mind",
+    "topic": "Curiosity Day"
+  },
+  "2026-02/19": {
+    "description": "A vibrant, swirling sea of blue and green dots come together to form a majestic whale breaching the ocean's surface, surrounded by schools of tiny fish and seaweed, all created using the intricate technique of Pointillism, with each dot meticulously placed to create a sense of movement and energy, capturing the beauty and wonder of these incredible creatures on World Whale Day.",
+    "style": "Pointillism",
+    "title": "Whale's Oceanic Majesty",
+    "topic": "World Whale Day"
+  },
+  "2026-02/20": {
+    "description": "A vibrant depiction of diverse individuals from various backgrounds and cultures coming together, forming a united front, with each person represented by tiny dots of color that blend together to create a powerful image of solidarity and equality. The dots are densely packed in the center, gradually becoming less dense towards the edges, symbolizing the unity and strength that comes from collective action.",
+    "style": "Pointillism",
+    "title": "United We Stand",
+    "topic": "World Day of Social Justice"
+  },
+  "2026-02/21": {
+    "description": "A vibrant depiction of diverse languages and cultures, with people from different ethnicities gathered around a globe, each holding a sign with a unique script, blending together in a beautiful, harmonious whole, created using tiny dots of color in the Pointillism style.",
+    "style": "Pointillism",
+    "title": "Unity in Diversity",
+    "topic": "Intl Mother Language Day"
+  },
+  "2026-02/22": {
+    "description": "A vibrant, textured depiction of girls from diverse backgrounds gathered around a globe, symbolizing unity and global understanding. Thick, heavy brushstrokes and raised paint create a dynamic, three-dimensional effect, drawing the viewer's eye to the center of the composition.",
+    "style": "Impasto",
+    "title": "Unity Around Globe",
+    "topic": "World Thinking Day"
+  },
+  "2026-02/23": {
+    "description": "A vibrant depiction of people from diverse backgrounds engaging in various acts of kindness, such as holding doors open, offering smiles, and lending helping hands, all created using tiny dots of color in the Pointillism style, blending together to form a beautiful, cohesive scene that radiates warmth and positivity.",
+    "style": "Pointillism",
+    "title": "Kindness in Full Bloom",
+    "topic": "Random Acts of Kindness Day"
+  },
+  "2026-02/24": {
+    "description": "A vibrant linocut artwork depicting a bustling bar scene, with a bartender expertly juggling multiple bottles and shakers, surrounded by lively patrons and colorful cocktails. The linocut style adds a unique texture and depth to the image, with bold lines and bright colors.",
+    "style": "Linocut",
+    "title": "Mixing Magic",
+    "topic": "World Bartender Day"
+  },
+  "2026-02/25": {
+    "description": "A vibrant depiction of people from diverse cultures and professions coming together, forming a large globe with their interconnected hands, symbolizing unity and cooperation on International CLT Day. The image is created using tiny dots of color, blending and merging to form a stunning visual representation of global solidarity.",
+    "style": "Pointillism",
+    "title": "Unity in Dots",
+    "topic": "International CLT Day"
+  },
+  "2026-02/26": {
+    "description": "A vibrant, textured depiction of a person leaping through a swirling vortex of colors, with bold brushstrokes and thick layers of paint creating a dynamic, three-dimensional effect. The background is a deep blue, representing the extra day that appears only once every four years, while the leaping figure is a bright, fiery orange, symbolizing energy and joy.",
+    "style": "Impasto",
+    "title": "Leap of Joy",
+    "topic": "Leap Day"
+  },
+  "2026-02/27": {
+    "description": "A polar bear is depicted in a serene Arctic landscape, surrounded by snowflakes and icebergs, created using tiny dots of color in Pointillism style, conveying a sense of fragility and beauty in the face of climate change.",
+    "style": "Pointillism",
+    "title": "Polar Bear's Fragile Home",
+    "topic": "International Polar Bear Day"
+  },
+  "2026-02/28": {
+    "description": "A whimsical depiction of a rare leap day, where the world is bathed in a warm, golden light. People from all walks of life are shown leaping and dancing in joy, their movements captured in tiny dots of color that seem to vibrate with energy. The background is a swirling mix of blues and greens, evoking a sense of movement and freedom. The overall effect is one of dynamic energy and celebration.",
+    "style": "Pointillism",
+    "title": "Leap of Joy",
+    "topic": "Rare Leap Day"
+  },
+  "2026-03/01": {
+    "description": "A vibrant and textured piece, featuring a diverse group of people from different cultures and backgrounds, all connected by a web of colorful threads, symbolizing the bonds of kindness and appreciation. The impasto style adds a tactile quality, inviting the viewer to touch and feel the emotions conveyed. The dominant colors are warm and uplifting, evoking a sense of joy and positivity.",
+    "style": "Impasto",
+    "title": "Compliments Connect Us",
+    "topic": "World Compliment Day"
+  },
+  "2026-03/02": {
+    "description": "A vibrant, textured depiction of children from diverse backgrounds gathered around a giant, open book, with words and images spilling out, blending into the surrounding environment, creating a sense of unity and shared knowledge. The impasto style adds a tactile quality, inviting the viewer to touch and explore the scene.",
+    "style": "Impasto",
+    "title": "Unity in Pages",
+    "topic": "World Book Day"
+  },
+  "2026-03/03": {
+    "description": "A vibrant depiction of a human ear, created using tiny dots of color, blending together to form a stunning image. The ear is surrounded by sound waves, symbolizing the importance of hearing and ear care. The background is a warm, gradient blue, representing trust and reliability. The overall effect is one of dynamic energy and movement, drawing the viewer's eye to the intricate details of the ear.",
+    "style": "Pointillism",
+    "title": "Hearing Harmony",
+    "topic": "International Ear Care Day"
+  },
+  "2026-03/04": {
+    "description": "A vibrant depiction of a diverse array of wildlife, including majestic elephants, playful monkeys, and colorful birds, all created using tiny dots of color in a Pointillism style, blending together to form a stunning image that celebrates the beauty and diversity of the natural world.",
+    "style": "Pointillism",
+    "title": "Wildlife Harmony",
+    "topic": "World Wildlife Day"
+  },
+  "2026-03/05": {
+    "description": "A vibrant depiction of children from diverse backgrounds gathered around a giant book, with confetti and balloons in the air. The image is created using tiny dots of color, blending together to form a stunning mosaic. The Pointillism style adds a sense of movement and energy to the scene, capturing the excitement of World Book Day.",
+    "style": "Pointillism",
+    "title": "Celebrating World Book Day",
+    "topic": "World Book Day"
+  },
+  "2026-03/06": {
+    "description": "A vibrant pointillist artwork featuring a blooming kidney-shaped flower with tiny dots in shades of blue and red, symbolizing the importance of kidney health and the beauty of life.",
+    "style": "Pointillism",
+    "title": "Kidney Blooms",
+    "topic": "World Kidney Day"
+  },
+  "2026-03/07": {
+    "description": "Vibrant colors, bold patterns, and intricate details come together to depict women from diverse backgrounds standing together, holding hands, and forming a strong, unbreakable chain. The image exudes a sense of unity, solidarity, and empowerment, celebrating the strength and resilience of women around the world.",
+    "style": "Batik",
+    "title": "Empowered Women Unite",
+    "topic": "International Women's Day"
+  },
+  "2026-03/08": {
+    "description": "A vibrant depiction of women from diverse backgrounds and cultures, united in solidarity, with each figure composed of tiny dots in shades of pink, purple, and blue, blending together to form a powerful and harmonious whole, set against a bright yellow background that represents hope and optimism.",
+    "style": "Pointillism",
+    "title": "United We Shine",
+    "topic": "International Women's Day"
+  },
+  "2026-03/09": {
+    "description": "A vibrant pointillist artwork depicting a blooming kidney, symbolizing life and health, with tiny dots of color merging to form a stunning floral pattern, conveying the importance of kidney health and awareness on World Kidney Day.",
+    "style": "Pointillism",
+    "title": "Kidney Blooms in Color",
+    "topic": "World Kidney Day"
+  },
+  "2026-03/10": {
+    "description": "A vibrant depiction of people from diverse backgrounds coming together, forming a giant globe with their awesomeness, created using tiny dots of color in Pointillism style. The dots blend to form a mesmerizing image of unity and celebration.",
+    "style": "Pointillism",
+    "title": "Awesomeness Unites",
+    "topic": "International Day of Awesomeness"
+  },
+  "2026-03/11": {
+    "description": "A vibrant, textured depiction of a chemistry lab, with beakers, test tubes, and flasks overflowing with colorful liquids and swirling gases. The impasto style adds a tactile quality, as if the paint is raised off the canvas. A sense of energy and curiosity emanates from the scene, inviting the viewer to explore the wonders of chemistry.",
+    "style": "Impasto",
+    "title": "Chemistry Lab Explosion",
+    "topic": "Curious About Chemistry Day"
+  },
+  "2026-03/12": {
+    "description": "A vibrant, textured depiction of a globe with a broken chain wrapped around it, symbolizing freedom from online censorship. The impasto style adds a sense of urgency and energy to the piece, with thick brushstrokes and bold colors. The chain is broken, but not severed, representing the ongoing struggle for online freedom.",
+    "style": "Impasto",
+    "title": "Breaking Free",
+    "topic": "World Day Against Cyber Censorship"
+  },
+  "2026-03/13": {
+    "description": "A vibrant Pointillism artwork depicting a scene of people from diverse backgrounds helping one another, with tiny dots of color blending together to form a cohesive image of kindness and compassion. The dots are densely packed in areas of high detail, such as the faces and hands, and more sparse in the background, creating a sense of depth and dimensionality. The overall effect is one of dynamic energy and warmth, capturing the spirit of National Good Samaritan Day.",
+    "style": "Pointillism",
+    "title": "Helping Hands Unite",
+    "topic": "National Good Samaritan Day"
+  },
+  "2026-03/14": {
+    "description": "A vibrant, textured depiction of a circular pie with a slice missing, revealing the digits of pi in a swirling pattern, set against a deep blue background with thick, heavy brushstrokes and raised paint, evoking a sense of dynamic energy and mathematical wonder.",
+    "style": "Impasto",
+    "title": "Pi Day Celebration",
+    "topic": "Pi Day"
+  },
+  "2026-03/15": {
+    "description": "A vibrant depiction of Nowruz Day, with thousands of tiny dots in shades of green, blue, and yellow, forming a beautiful Haft-Seen table setting, complete with sabzeh, samanu, and senjed, surrounded by blooming flowers and fluttering birds, all blending together to create a sense of joy and renewal.",
+    "style": "Pointillism",
+    "title": "Nowruz Blooms",
+    "topic": "Nowruz Day"
+  },
+  "2026-03/16": {
+    "description": "A vibrant depiction of a leprechaun standing in front of a pot of gold, surrounded by shamrocks and rainbow-colored dots, created using tiny dots of color that blend together to form a cohesive image, characteristic of the Pointillism style.",
+    "style": "Pointillism",
+    "title": "Lucky Leprechaun's Gold",
+    "topic": "St. Patrick's Day"
+  },
+  "2026-03/17": {
+    "description": "A vibrant depiction of St. Patrick's Day festivities, created using Pointillism technique, featuring tiny dots of green, orange, and white that blend together to form a lively scene of leprechauns, shamrocks, and pots of gold. The dots are densely packed, creating a sense of energy and movement, with the colors blending together to form a shimmering effect.",
+    "style": "Pointillism",
+    "title": "Emerald Dot Celebration",
+    "topic": "St. Patrick's Day"
+  },
+  "2026-03/18": {
+    "description": "A vibrant and textured depiction of Nowruz, with thick layers of paint creating a raised, three-dimensional effect. The image features a traditional Haft-Seen table setting, with symbolic items such as sabzeh, senjed, and samanu, surrounded by blooming flowers and lush greenery. The impasto technique adds a tactile quality to the piece, inviting the viewer to touch and explore the intricate textures.",
+    "style": "Impasto",
+    "title": "Nowruz in Bloom",
+    "topic": "Nowruz"
+  },
+  "2026-03/19": {
+    "description": "A vibrant depiction of St. Joseph's Day festivities, rendered in Pointillism style, featuring tiny dots of color that blend to form a lively scene of people gathered around a table laden with traditional sweets and flowers, with St. Joseph's statue in the background, surrounded by a halo of light, creating a sense of joy and community.",
+    "style": "Pointillism",
+    "title": "Joseph's Day Celebration",
+    "topic": "St. Josephs Day"
+  },
+  "2026-03/20": {
+    "description": "Vibrant colors dance across the canvas, depicting a serene landscape on the first day of spring, as tiny dots blend to form a breathtaking scene of renewal and growth.",
+    "style": "Pointillism",
+    "title": "Spring Renewal",
+    "topic": "Special Day - Spring Equinox"
+  },
+  "2026-03/21": {
+    "description": "A serene landscape with rolling hills, a tranquil lake, and a few trees, all reflected in a Claude Glass, a 18th-century optical device. In the foreground, a poet sits on a rock, quill in hand, lost in thought, as if inspired by the beauty of nature. The atmosphere is dreamy and contemplative, with soft, feathery brushstrokes and muted colors, evoking a sense of nostalgia and timelessness.",
+    "style": "Claude Glass",
+    "title": "Poetic Reflections",
+    "topic": "World Poetry Day"
+  },
+  "2026-03/22": {
+    "description": "A vibrant depiction of water droplets forming a globe, with each droplet meticulously painted with tiny dots in shades of blue, green, and purple, blending together to create a sense of movement and fluidity, symbolizing the preciousness and interconnectedness of water.",
+    "style": "Pointillism",
+    "title": "Droplets of Life",
+    "topic": "World Water Day"
+  },
+  "2026-03/23": {
+    "description": "A vibrant depiction of the Earth's atmosphere, with tiny dots of blue and white hues blending together to form swirling clouds and a bright sun, set against a deep blue background, evoking a sense of dynamic movement and energy, characteristic of Pointillism style.",
+    "style": "Pointillism",
+    "title": "Weather in Motion",
+    "topic": "World Meteorological Day"
+  },
+  "2026-03/24": {
+    "description": "A pointillist artwork depicting a globe with tiny dots forming a lung, surrounded by smaller dots representing TB bacteria. The dots are arranged to resemble a tree, symbolizing growth and resilience. The color palette is predominantly blue and green, conveying hope and harmony. The artwork aims to raise awareness about TB and promote global efforts to combat the disease.",
+    "style": "Pointillism",
+    "title": "TB Awareness",
+    "topic": "World Tuberculosis (TB) Day"
+  },
+  "2026-03/25": {
+    "description": "A somber scene of Jesus Christ's crucifixion, depicted in a sea of tiny dots, blending to form a poignant image. The Pointillism style creates a sense of depth and emotion, drawing the viewer's eye to the central figure of Christ. The colors are muted, with shades of blue and grey dominating the palette, evoking feelings of sorrow and contemplation.",
+    "style": "Pointillism",
+    "title": "Crucifixion in Dots",
+    "topic": "Good Friday"
+  },
+  "2026-03/26": {
+    "description": "A whimsical scene of people from diverse backgrounds celebrating their own unique holidays, created using tiny dots of color that blend together to form a vibrant and lively atmosphere, with confetti, balloons, and festive decorations adding to the joyous mood.",
+    "style": "Pointillism",
+    "title": "Vibrant Dots of Joy",
+    "topic": "Make Up Your Own Holiday Day"
+  },
+  "2026-03/27": {
+    "description": "A colorful depiction of a grand theater, with thousands of tiny dots blending together to form a vibrant scene. The stage is set with a beautiful backdrop, and the audience is filled with people from all over the world, united by their love of theater. The dots dance across the canvas, creating a sense of energy and movement.",
+    "style": "Pointillism",
+    "title": "Theatre Unites",
+    "topic": "World Theatre Day"
+  },
+  "2026-03/28": {
+    "description": "A frottage artwork depicting a grand, ornate theatre with intricate details, showcasing various masks and playbills from different cultures and time periods, blending together in a dreamlike, textured manner, evoking the rich history and diversity of world theatre.",
+    "style": "Frottage",
+    "title": "Theatre Masks Unite",
+    "topic": "World Theatre Day"
+  },
+  "2026-03/29": {
+    "description": "A vibrant forest scene with trees of various shapes and sizes, their trunks and branches formed by tiny dots of color, blending together to create a sense of depth and texture. The trees are surrounded by a kaleidoscope of flowers, leaves, and birds, all created using the pointillism technique. The overall effect is one of joy and celebration, capturing the spirit of International Hug a Tree Day.",
+    "style": "Pointillism",
+    "title": "Tree Hug Fest",
+    "topic": "International Hug a Tree Day"
+  },
+  "2026-03/30": {
+    "description": "A vibrant, textured depiction of a brain with swirling clouds of contrasting colors, representing the turmoil and complexity of bipolar disorder. Thick, heavy brushstrokes and raised paint create a dynamic, three-dimensional effect, drawing the viewer into the emotional depth of the piece.",
+    "style": "Impasto",
+    "title": "Turbulent Mind",
+    "topic": "World Bipolar Day"
+  },
+  "2026-03/31": {
+    "description": "A portrait of Cesar Chavez, created using Pointillism style, with thousands of tiny dots in shades of brown and beige, blending together to form a powerful image of the civil rights leader. The dots are densely packed around his face, creating a sense of depth and dimensionality. The background is a warm, gradient blue, evoking the sense of a sunny day in the fields where Chavez worked tirelessly to advocate for farmworkers' rights. The overall effect is one of energy, movement, and a sense of hope.",
+    "style": "Pointillism",
+    "title": "Chavez in Dots",
+    "topic": "Cesar Chavez Day"
+  },
+  "2026-04/01": {
+    "description": "A vibrant and textured depiction of a person being pranked on April Fools' Day, with bold brushstrokes and thick layers of paint creating a dynamic and playful atmosphere. The subject's shocked expression is captured in a swirl of colors, while the prankster lurks in the background with a mischievous grin. The impasto technique adds a tactile quality to the piece, inviting the viewer to touch the raised surfaces.",
+    "style": "Impasto",
+    "title": "Pranked!",
+    "topic": "April Fools' Day"
+  },
+  "2026-04/02": {
+    "description": "A vibrant and textured piece, 'Embracing Differences' showcases a diverse group of individuals with autism, each with their unique personality and strengths, coming together to form a beautiful mosaic. The impasto style adds a tactile quality, inviting the viewer to touch and explore the intricate details. The dominant blue color palette represents calmness and serenity, while the splashes of bright colors signify the diversity and individuality of the autism community.",
+    "style": "Impasto",
+    "title": "Embracing Differences",
+    "topic": "World Autism Awareness Day"
+  },
+  "2026-04/03": {
+    "description": "A vibrant, colorful depiction of a diverse group of people with autism, created using tiny dots of color in a Pointillism style, blending together to form a beautiful, cohesive image. The dots are arranged to resemble puzzle pieces, symbolizing the unique perspectives and strengths of individuals with autism. The background is a bright blue, representing acceptance and understanding.",
+    "style": "Pointillism",
+    "title": "Unity in Diversity",
+    "topic": "World Autism Awareness Day"
+  },
+  "2026-04/05": {
+    "description": "A vibrant depiction of Palm Sunday, with Jesus Christ riding a donkey, surrounded by a crowd of people waving palm branches and throwing flowers. The scene is set against a bright blue sky with fluffy white clouds. The pointillism style creates a sense of movement and energy, with tiny dots of color blending together to form a stunning image.",
+    "style": "Pointillism",
+    "title": "Jesus Enters Jerusalem",
+    "topic": "Palm Sunday"
+  },
+  "2026-04/06": {
+    "description": "A vibrant depiction of Scottish heritage, with intricate patterns of tartan blankets, bagpipes, and thistles, created using tiny dots of color in a Pointillism style, blending traditional and modern elements.",
+    "style": "Pointillism",
+    "title": "Tartan Day Celebration",
+    "topic": "Scottish Heritage"
+  },
   "default": {
     "description": "Kakapo's wings unfolding like a dark, twisted lotus flower, petals made of iridescent feathers that shimmer like stardust, her beak glowing with an otherworldly green light as she rises from a misty, dreamlike forest, surrounded by giant, whispering trees that seem to be sharing ancient secrets with her",
     "randomDrug": "DMT",
