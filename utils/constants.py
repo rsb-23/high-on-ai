@@ -8,6 +8,6 @@ if "CF_API_KEY" not in os.environ:
 
 CF_ACCOUNT_ID = os.environ["CF_ACCOUNT_ID"]
 CF_API_KEY = os.environ["CF_API_KEY"]
-SAVE_RESPONSE = os.environ.get("SAVE_RESPONSE", False)
+SAVE_RESPONSE = os.environ.get("SAVE_RESPONSE", "")
 
 DATA_PATH = Path("iotd")

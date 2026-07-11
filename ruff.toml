@@ -1,0 +1,18 @@
+exclude = [".git", "__pycache__", ".venv"]
+line-length = 120
+output-format = "concise"
+target-version = "py312"
+
+[format]
+skip-magic-trailing-comma = true
+
+[lint]
+select = ["F", "E", "W", "B", "I", "PL", "RUF005", "RUF010"]
+ignore = ["E203", "E501", "PLW0129", "PLR2004"]
+
+[lint.per-file-ignores]
+"*/__init__.py" = ["F401"]
+
+[lint.isort]
+split-on-trailing-comma = false
+combine-as-imports = false

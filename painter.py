@@ -37,7 +37,7 @@ def hallucinator() -> ImageDetails:
     except json.JSONDecodeError as e:
         print(f"JSON mode failed for - {e.msg}")
         print(output)
-        raise json.JSONDecodeError
+        raise json.JSONDecodeError from e
 
 
 def artist() -> ImageDetails:
